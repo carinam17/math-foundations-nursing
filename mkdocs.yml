@@ -44,10 +44,43 @@ nav:
     - Household Measurements: module2/household-measurements.md
     - Converting Between Units: module2/conversions.md
     - Dimensional Analysis: module2/dimensional-analysis.md
+    
+  - Module 3 - Ratio and Proportion:
+    - Overview: module3/index.md
+    - Ratios: module3/ratios.md
+    - Proportions: module3/proportions.md
+    - Unit Cancellation: module3/unit-cancellation.md
+    - Clinical Applications: module3/clinical-applications.md
+  
+  - Module 4 - Dosage Calculations:
+    - Overview: module4/index.md
+    - Oral Medications: module4/oral-medications.md
+    - Liquid Medications: module4/liquid-medications.md
+    - Weight-Based Dosing: module4/weight-based-dosing.md
+    - Pediatric Dosing: module4/pediatric-dosing.md
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   - Reference:
     - Conversion Tables: reference/conversion-tables.md
     - Formula Sheet: reference/formulas.md
     - Glossary: reference/glossary.md
+
+
+
+
+
+
+
 
 
 copyright: >
