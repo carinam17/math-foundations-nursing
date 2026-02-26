@@ -31,28 +31,23 @@ theme:
 
 nav:
   - Home: index.md
-  - Module 1 – Basic Arithmetic:
+  - Module 1 - Basic Arithmetic:
     - Overview: module1/index.md
     - Whole Numbers: module1/whole-numbers.md
     - Fractions: module1/fractions.md
     - Decimals: module1/decimals.md
     - Rounding: module1/rounding.md
     - Percentages: module1/percentages.md
-  - Reference:
-    - Conversion Tables: reference/conversion-tables.md
-    - Formula Sheet: reference/formulas.md
-    - Glossary: reference/glossary.md
-
-- Module 2 – Units & Conversions:
+  - Module 2 - Units and Conversions:
     - Overview: module2/index.md
     - Metric System: module2/metric-system.md
     - Household Measurements: module2/household-measurements.md
     - Converting Between Units: module2/conversions.md
     - Dimensional Analysis: module2/dimensional-analysis.md
-
-
-
-
+  - Reference:
+    - Conversion Tables: reference/conversion-tables.md
+    - Formula Sheet: reference/formulas.md
+    - Glossary: reference/glossary.md
 
 
 copyright: >
