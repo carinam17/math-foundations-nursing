@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#iv-medications" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1339,7 +1344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../iv-flow-rates.md" class="md-nav__link">
+      <a href="../iv-flow-rates/" class="md-nav__link">
         
   
   
@@ -1429,6 +1434,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IV Medications
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -1446,6 +1471,124 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-iv-medication-orders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of IV Medication Orders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concentration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concentration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fixed-dose-over-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fixed Dose Over Time
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#continuous-infusion-by-dose-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continuous Infusion by Dose Rate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weight-based-continuous-infusions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weight-Based Continuous Infusions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verifying-dose-from-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verifying Dose from Rate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-alert-iv-medications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Alert IV Medications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practice-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1790,9 +1933,213 @@
 
 
 
-  <h1>IV Medications</h1>
-
-
+<h1 id="iv-medications">IV Medications<a class="headerlink" href="#iv-medications" title="Permanent link">&para;</a></h1>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>IV medications require an additional calculation step 
+beyond standard fluid rates. You must calculate not only 
+the flow rate but also the dose being delivered per unit 
+of time — and verify it matches the order.</p>
+<h2 id="types-of-iv-medication-orders">Types of IV Medication Orders<a class="headerlink" href="#types-of-iv-medication-orders" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Order Type</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fixed dose over time</td>
+<td>vancomycin 1000 mg over 60 min</td>
+</tr>
+<tr>
+<td>Continuous infusion by rate</td>
+<td>heparin 1000 units/hr</td>
+</tr>
+<tr>
+<td>Weight-based continuous</td>
+<td>dopamine 5 mcg/kg/min</td>
+</tr>
+<tr>
+<td>Intermittent piggyback (IVPB)</td>
+<td>metronidazole 500 mg over 30 min</td>
+</tr>
+</tbody>
+</table>
+<h2 id="concentration">Concentration<a class="headerlink" href="#concentration" title="Permanent link">&para;</a></h2>
+<p>IV medication concentrations are expressed as amount 
+of drug per volume of fluid:</p>
+<div class="arithmatex">\[\text{Concentration} = \frac{\text{Amount of drug (mg, units, mcg)}}{\text{Volume (mL)}}\]</div>
+<p><strong>Example:</strong>
+500 mg of drug mixed in 250 mL of fluid:</p>
+<div class="arithmatex">\[\frac{500 \text{ mg}}{250 \text{ mL}} = 2 \text{ mg/mL}\]</div>
+<h2 id="fixed-dose-over-time">Fixed Dose Over Time<a class="headerlink" href="#fixed-dose-over-time" title="Permanent link">&para;</a></h2>
+<p><strong>Example 1:</strong>
+Order: vancomycin 1000 mg in 250 mL over 90 minutes
+What is the flow rate in mL/hr?</p>
+<p>Convert time to hours:
+[90 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 1.5 \text{ hr}]</p>
+<p>Calculate rate:
+[\frac{250 \text{ mL}}{1.5 \text{ hr}} = 166.7 \text{ mL/hr}]</p>
+<p>Round to: <strong>167 mL/hr</strong></p>
+<p><strong>Example 2:</strong>
+Order: metronidazole 500 mg in 100 mL over 30 minutes
+What is the flow rate in mL/hr?</p>
+<div class="arithmatex">\[30 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 0.5 \text{ hr}\]</div>
+<div class="arithmatex">\[\frac{100 \text{ mL}}{0.5 \text{ hr}} = 200 \text{ mL/hr}\]</div>
+<h2 id="continuous-infusion-by-dose-rate">Continuous Infusion by Dose Rate<a class="headerlink" href="#continuous-infusion-by-dose-rate" title="Permanent link">&para;</a></h2>
+<p>When an order specifies a dose rate (units/hr, mg/hr), 
+calculate the flow rate from the concentration.</p>
+<p><strong>Example 3:</strong>
+Order: heparin 1200 units/hr
+Stock: heparin 25,000 units in 500 mL 0.9% NaCl</p>
+<p>Step 1 — find concentration:
+[\frac{25{,}000 \text{ units}}{500 \text{ mL}} = 50 \text{ units/mL}]</p>
+<p>Step 2 — calculate flow rate:
+[\frac{1200 \text{ units/hr}}{50 \text{ units/mL}} = 24 \text{ mL/hr}]</p>
+<p><strong>Example 4:</strong>
+Order: morphine 2 mg/hr IV continuous
+Stock: morphine 50 mg in 250 mL 0.9% NaCl</p>
+<p>Step 1 — concentration:
+[\frac{50 \text{ mg}}{250 \text{ mL}} = 0.2 \text{ mg/mL}]</p>
+<p>Step 2 — flow rate:
+[\frac{2 \text{ mg/hr}}{0.2 \text{ mg/mL}} = 10 \text{ mL/hr}]</p>
+<h2 id="weight-based-continuous-infusions">Weight-Based Continuous Infusions<a class="headerlink" href="#weight-based-continuous-infusions" title="Permanent link">&para;</a></h2>
+<p>Weight-based IV medications are ordered in 
+mcg/kg/min or mcg/kg/hr.</p>
+<p><strong>Example 5:</strong>
+Order: dopamine 5 mcg/kg/min IV
+Patient weight: 70 kg
+Stock: dopamine 400 mg in 250 mL D5W</p>
+<p>Step 1 — calculate dose per minute:
+[70 \cancel{\text{ kg}} \times \frac{5 \text{ mcg}}{1 \cancel{\text{ kg}} \cdot \text{min}} = 350 \text{ mcg/min}]</p>
+<p>Step 2 — convert mcg/min to mg/hr:
+[350 \cancel{\text{ mcg/min}} \times \frac{1 \cancel{\text{ mg}}}{1000 \cancel{\text{ mcg}}} \times \frac{60 \text{ min}}{1 \text{ hr}} = 21 \text{ mg/hr}]</p>
+<p>Step 3 — find concentration:
+[\frac{400 \text{ mg}}{250 \text{ mL}} = 1.6 \text{ mg/mL}]</p>
+<p>Step 4 — calculate flow rate:
+[\frac{21 \text{ mg/hr}}{1.6 \text{ mg/mL}} = 13.125 \text{ mL/hr}]</p>
+<p>Round to: <strong>13 mL/hr</strong></p>
+<h2 id="verifying-dose-from-rate">Verifying Dose from Rate<a class="headerlink" href="#verifying-dose-from-rate" title="Permanent link">&para;</a></h2>
+<p>Sometimes you need to verify what dose a patient 
+is receiving from a running infusion.</p>
+<div class="arithmatex">\[\text{Dose rate} = \text{Flow rate (mL/hr)} \times \text{Concentration (drug/mL)}\]</div>
+<p><strong>Example 6:</strong>
+An IV is running at 30 mL/hr.
+Stock: 500 mg in 250 mL
+What dose is the patient receiving per hour?</p>
+<p>Step 1 — concentration:
+[\frac{500 \text{ mg}}{250 \text{ mL}} = 2 \text{ mg/mL}]</p>
+<p>Step 2 — dose rate:
+[30 \text{ mL/hr} \times 2 \text{ mg/mL} = 60 \text{ mg/hr}]</p>
+<h2 id="high-alert-iv-medications">High Alert IV Medications<a class="headerlink" href="#high-alert-iv-medications" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">High Alert IV Medications</p>
+<p>The following IV medications require independent 
+double checking of all calculations and pump settings:</p>
+<ul>
+<li><strong>Heparin</strong> — risk of serious bleeding</li>
+<li><strong>Insulin</strong> — risk of severe hypoglycemia</li>
+<li><strong>Morphine and opioids</strong> — risk of respiratory depression</li>
+<li><strong>Dopamine and vasopressors</strong> — risk of cardiovascular collapse</li>
+<li><strong>Chemotherapy</strong> — risk of severe toxicity</li>
+<li><strong>Concentrated electrolytes</strong> — risk of cardiac arrest</li>
+</ul>
+<p>Never administer these medications without a verified 
+independent double check.</p>
+</div>
+<h2 id="practice-problems">Practice Problems<a class="headerlink" href="#practice-problems" title="Permanent link">&para;</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Problem 1</p>
+<p>Order: ampicillin 500 mg in 100 mL over 30 minutes
+What is the flow rate in mL/hr?</p>
+</div>
+<details class="success">
+<summary>Answer</summary>
+<div class="arithmatex">\[30 \text{ min} = 0.5 \text{ hr}\]</div>
+<div class="arithmatex">\[\frac{100 \text{ mL}}{0.5 \text{ hr}} = 200 \text{ mL/hr}\]</div>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Problem 2</p>
+<p>Order: heparin 1500 units/hr IV
+Stock: 25,000 units in 500 mL 0.9% NaCl
+What is the flow rate in mL/hr?</p>
+</div>
+<details class="success">
+<summary>Answer</summary>
+<p>Concentration:
+[\frac{25{,}000 \text{ units}}{500 \text{ mL}} = 50 \text{ units/mL}]</p>
+<p>Flow rate:
+[\frac{1500 \text{ units/hr}}{50 \text{ units/mL}} = 30 \text{ mL/hr}]</p>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Problem 3</p>
+<p>Order: morphine 3 mg/hr IV continuous
+Stock: morphine 50 mg in 500 mL 0.9% NaCl
+What is the flow rate in mL/hr?</p>
+</div>
+<details class="success">
+<summary>Answer</summary>
+<p>Concentration:
+[\frac{50 \text{ mg}}{500 \text{ mL}} = 0.1 \text{ mg/mL}]</p>
+<p>Flow rate:
+[\frac{3 \text{ mg/hr}}{0.1 \text{ mg/mL}} = 30 \text{ mL/hr}]</p>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Problem 4</p>
+<p>Order: vancomycin 1500 mg in 500 mL over 3 hours
+What is the flow rate in mL/hr?</p>
+</div>
+<details class="success">
+<summary>Answer</summary>
+<div class="arithmatex">\[\frac{500 \text{ mL}}{3 \text{ hr}} = 166.7 \text{ mL/hr}\]</div>
+<p>Round to: <strong>167 mL/hr</strong></p>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Problem 5</p>
+<p>Order: dopamine 3 mcg/kg/min IV
+Patient weight: 80 kg
+Stock: dopamine 400 mg in 250 mL D5W
+What is the flow rate in mL/hr?</p>
+</div>
+<details class="success">
+<summary>Answer</summary>
+<p>Step 1 — dose per minute:
+[80 \cancel{\text{ kg}} \times \frac{3 \text{ mcg}}{1 \cancel{\text{ kg}} \cdot \text{min}} = 240 \text{ mcg/min}]</p>
+<p>Step 2 — convert to mg/hr:
+[240 \cancel{\text{ mcg/min}} \times \frac{1 \cancel{\text{ mg}}}{1000 \cancel{\text{ mcg}}} \times \frac{60 \text{ min}}{1 \text{ hr}} = 14.4 \text{ mg/hr}]</p>
+<p>Step 3 — concentration:
+[\frac{400 \text{ mg}}{250 \text{ mL}} = 1.6 \text{ mg/mL}]</p>
+<p>Step 4 — flow rate:
+[\frac{14.4 \text{ mg/hr}}{1.6 \text{ mg/mL}} = 9 \text{ mL/hr}]</p>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Problem 6</p>
+<p>An IV is running at 20 mL/hr.
+Stock: heparin 25,000 units in 500 mL
+What dose of heparin is the patient receiving per hour?</p>
+</div>
+<details class="success">
+<summary>Answer</summary>
+<p>Concentration:
+[\frac{25{,}000 \text{ units}}{500 \text{ mL}} = 50 \text{ units/mL}]</p>
+<p>Dose rate:
+[20 \text{ mL/hr} \times 50 \text{ units/mL} = 1000 \text{ units/hr}]</p>
+</details>
+<div class="admonition warning">
+<p class="admonition-title">Clinical Tip</p>
+<p>When hanging a new IV medication always perform 
+a three-way check:</p>
+<ol>
+<li>Verify the <strong>drug name and concentration</strong> 
+   on the bag matches the order</li>
+<li>Verify the <strong>pump rate</strong> matches your calculation</li>
+<li>Verify the <strong>patient</strong> using two identifiers 
+   before connecting the line</li>
+</ol>
+<p>These three checks take less than 60 seconds 
+and prevent the most common IV medication errors.</p>
+</div>
 
 
 
