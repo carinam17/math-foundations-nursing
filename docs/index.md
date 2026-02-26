@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# Math Foundations for Nursing
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to **Math Foundations for Nursing**, a free open textbook designed to help nursing students build confidence and accuracy with the mathematical skills required in clinical practice.
 
-## Commands
+## What You Will Learn
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This textbook covers six core areas:
 
-## Project layout
+1. **Basic Arithmetic** — fractions, decimals, rounding, and percentages
+2. **Units of Measurement & Conversions** — metric system and household measurements
+3. **Ratio and Proportion** — setting up and solving clinical problems
+4. **Dosage Calculations** — oral medications and weight-based dosing
+5. **IV Flow Rate Calculations** — drip rates, infusion times, and pump settings
+6. **Safe Medication Practice** — the 5 Rights and error prevention
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## How to Use This Textbook
+
+Work through each module in order as each builds on the previous. Use the reference section for quick lookups of formulas and conversion tables.
+
+## License
+
+This work is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — free for personal and non-commercial use.
