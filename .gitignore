@@ -1,0 +1,25 @@
+# MkDocs build directory (gh-deploy handles this separately)
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+
+# Virtual environment (if you create one later)
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
