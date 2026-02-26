@@ -43,6 +43,18 @@ nav:
     - Formula Sheet: reference/formulas.md
     - Glossary: reference/glossary.md
 
+- Module 2 – Units & Conversions:
+    - Overview: module2/index.md
+    - Metric System: module2/metric-system.md
+    - Household Measurements: module2/household-measurements.md
+    - Converting Between Units: module2/conversions.md
+    - Dimensional Analysis: module2/dimensional-analysis.md
+
+
+
+
+
+
 copyright: >
   © 2025 Carina Mata — 
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
