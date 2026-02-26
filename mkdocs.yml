@@ -1,18 +1,33 @@
 site_name: Math Foundations for Nursing
 site_description: A free open textbook for nursing students
-site_url: https://yourusername.github.io/math-foundations-nursing
+site_url: https://carinam17.github.io/math-foundations-nursing
 
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
   palette:
-    primary: teal
-    accent: cyan
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.highlight
     - toc.integrate
+    - content.code.copy
+
 
 nav:
   - Home: index.md
@@ -29,20 +44,19 @@ nav:
     - Glossary: reference/glossary.md
 
 copyright: >
-  © 2025 Your Name — 
+  © 2025 Carina Mata — 
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
   Free for personal and non-commercial use
 
 markdown_extensions:
   - admonition
-  - details
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
   - tables
   - toc:
       permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-      
-      extra_javascript:
+
+extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  
