@@ -20,6 +20,8 @@ Every medication order contains:
 | Frequency | twice daily (BID) |
 | Prescriber signature | Dr. Jones |
 
+
+
 ## Reading the Stock Label
 
 The stock label tells you what is available:
@@ -164,3 +166,6 @@ Step 2 — total tablets:
     3. Before administering to the patient
     
     This is not a suggestion — it is a professional standard.
+    
+    
+

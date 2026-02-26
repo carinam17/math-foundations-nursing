@@ -1,11 +1,14 @@
 # Drip Rates
 
+
 ## Overview
 
 When an electronic infusion pump is not available, IV fluids 
 are administered by gravity using a drip set. In this case 
 the flow rate is controlled manually by adjusting a roller 
 clamp and counting drops per minute (gtt/min).
+
+
 
 ## Drop Factor
 
@@ -26,6 +29,9 @@ the tubing package and must be verified before calculating.
     - **Microdrip (60 gtt/mL)** — pediatric patients, precise 
       low-volume infusions, critical medications
 
+
+
+
 ## The Drip Rate Formula
 
 \[\text{Drip Rate (gtt/min)} = \frac{\text{Volume (mL)}}{\text{Time (min)}} \times \text{Drop Factor (gtt/mL)}\]
@@ -33,6 +39,9 @@ the tubing package and must be verified before calculating.
 Or using an hourly rate:
 
 \[\text{Drip Rate (gtt/min)} = \frac{\text{Rate (mL/hr)} \times \text{Drop Factor (gtt/mL)}}{60 \text{ min/hr}}\]
+
+
+
 
 ## Rounding Drip Rates
 

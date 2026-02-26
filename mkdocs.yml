@@ -38,6 +38,7 @@ nav:
     - Decimals: module1/decimals.md
     - Rounding: module1/rounding.md
     - Percentages: module1/percentages.md
+  
   - Module 2 - Units and Conversions:
     - Overview: module2/index.md
     - Metric System: module2/metric-system.md
@@ -52,6 +53,9 @@ nav:
     - Unit Cancellation: module3/unit-cancellation.md
     - Clinical Applications: module3/clinical-applications.md
   
+  
+  
+  
   - Module 4 - Dosage Calculations:
     - Overview: module4/index.md
     - Oral Medications: module4/oral-medications.md
@@ -59,14 +63,21 @@ nav:
     - Weight-Based Dosing: module4/weight-based-dosing.md
     - Pediatric Dosing: module4/pediatric-dosing.md
     
+  - Module 5 - IV Flow Rate Calculations:
+    - Overview: module5/index.md
+    - IV Flow Rates: module5/iv-flow-rates.md
+    - Infusion Time: module5/infusion-time.md
+    - Drip Rates: module5/drip-rates.md
+    - IV Medications: module5/iv-medications.md
+  
+  - Module 6 - Wrap-Up Challenge:
+    - Overview: module6/index.md
+    - Practice Set 1: module6/practice-set-1.md
+    - Practice Set 2: module6/practice-set-2.md
+    - Answer Key: module6/answer-key.md
     
     
-    
-    
-    
-    
-    
-    
+  
     
     
     
