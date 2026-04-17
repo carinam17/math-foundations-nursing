@@ -1,13 +1,10 @@
-# Module 1 - Basic Arithmetic Review
+# Module 1 - Numbers and Operations
 
 ## Overview
 
-This module reviews the core arithmetic skills that underpin 
-every nursing calculation you will encounter in clinical practice. 
-Before calculating a drug dose or an IV flow rate, you need 
-to be confident with the fundamentals covered here.
+Learn about different number types you will come across as well as operations like multiplication and rounding.
 
-Work through each topic in order — each one builds on the last.
+Work through each topic in order. Complete the checkpoint questions and skip the module if you're good to go.
 
 ## Learning Objectives
 
