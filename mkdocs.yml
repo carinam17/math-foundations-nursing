@@ -1,5 +1,5 @@
 site_name: Math Foundations for Nursing
-site_description: An open mathematics textbook for nursing students provided by Convergent Math.
+site_description: A free and open mathematics textbook for nursing students provided by Convergent Math.
 site_url: https://carinam17.github.io/math-foundations-nursing
 
 theme:
@@ -81,15 +81,8 @@ nav:
     - Glossary: reference/glossary.md
 
 
-
-
-
-
-
-
-
 copyright: >
-  © 2026 Carina Mata — Convergent Math
+  © 2026 Carina Mata | Convergent Math
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
   Free for personal and non-commercial use
 
