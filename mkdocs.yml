@@ -1,5 +1,5 @@
 site_name: Math Foundations for Nursing
-site_description: A free open textbook for nursing students
+site_description: An open mathematics textbook for nursing students provided by Convergent Math.
 site_url: https://carinam17.github.io/math-foundations-nursing
 
 theme:
@@ -54,8 +54,6 @@ nav:
     - Clinical Applications: module3/clinical-applications.md
   
   
-  
-  
   - Module 4 - Dosage Calculations:
     - Overview: module4/index.md
     - Oral Medications: module4/oral-medications.md
@@ -77,10 +75,6 @@ nav:
     - Answer Key: module6/answer-key.md
     
     
-  
-    
-    
-    
   - Reference:
     - Conversion Tables: reference/conversion-tables.md
     - Formula Sheet: reference/formulas.md
@@ -95,7 +89,7 @@ nav:
 
 
 copyright: >
-  © 2025 Carina Mata — 
+  © 2026 Carina Mata — Convergent Math
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
   Free for personal and non-commercial use
 
