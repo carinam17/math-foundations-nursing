@@ -1,20 +1,24 @@
 # Module 1 - Numbers and Operations
 
+
 ## Overview
 
-Learn about different number types you will come across as well as operations like multiplication and rounding.
+Learn about the different number types you will come across as well as math operations like multiplication and rounding.
 
-Work through each topic in order. Complete the checkpoint questions and skip the module if you're good to go.
+Work through each topic in order. Or complete the checkpoint questions and skip the module if you're good to go.
+
 
 ## Learning Objectives
 
-By the end of this module you should be able to:
+By the end of this module you will be able to:
 
 - Perform operations with whole numbers, fractions, and decimals
 - Round numbers correctly to the required decimal place
 - Calculate percentages
 - Recognize and apply patient safety rules around decimal notation
 - Apply these skills to basic clinical scenarios
+
+
 
 ## Topics
 
