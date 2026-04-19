@@ -34,6 +34,8 @@ By the end of this module you will be able to:
 
 Approximately 1-2 hours including practice problems.
 
+
+
 ## Clinical Relevance
 
 !!! info "Why This Matters"
