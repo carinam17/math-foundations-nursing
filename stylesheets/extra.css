@@ -1,0 +1,41 @@
+/* .md-typeset table {
+  font-size: 2rem;
+}
+
+
+
+.md-typeset {
+  font-size: 1.0rem;
+}
+
+
+
+.md-typeset table, .md-typeset table p {
+  font-size: 1.0rem !important;
+}
+
+
+.md-typeset .admonition,
+.md-typeset .admonition-title {
+  font-size: 1rem;
+}
+
+*/
+
+
+:root {
+  --book-font-size: 1rem;
+}
+
+.md-typeset {
+  font-size: var(--book-font-size);
+}
+
+.md-typeset table {
+  font-size: var(--book-font-size);
+}
+
+.md-typeset .admonition,
+.md-typeset .admonition-title {
+  font-size: var(--book-font-size);
+}
