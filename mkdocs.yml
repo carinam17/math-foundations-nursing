@@ -1,7 +1,6 @@
 site_name: Math Foundations for Nursing
 site_description: A free and open mathematics textbook for nursing students provided by Convergent Math.
-site_url: https://carinam17.github.io/math-foundations-nursing
-
+site_url: https://nursing.convergentmath.com
 theme:
   name: material
   font:
@@ -31,7 +30,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Module 1 - Basic Arithmetic:
+  - M1 · Arithmetic:
     - Overview: module1/index.md
     - Whole Numbers: module1/whole-numbers.md
     - Fractions: module1/fractions.md
@@ -39,14 +38,14 @@ nav:
     - Rounding: module1/rounding.md
     - Percentages: module1/percentages.md
   
-  - Module 2 - Units and Conversions:
+  - M2 · Units and Conversions:
     - Overview: module2/index.md
     - Metric System: module2/metric-system.md
     - Household Measurements: module2/household-measurements.md
     - Converting Between Units: module2/conversions.md
     - Dimensional Analysis: module2/dimensional-analysis.md
     
-  - Module 3 - Ratio and Proportion:
+  - M3 · Ratio and Proportion:
     - Overview: module3/index.md
     - Ratios: module3/ratios.md
     - Proportions: module3/proportions.md
@@ -54,29 +53,29 @@ nav:
     - Clinical Applications: module3/clinical-applications.md
   
   
-  - Module 4 - Dosage Calculations:
+  - M4 · Dosage:
     - Overview: module4/index.md
     - Oral Medications: module4/oral-medications.md
     - Liquid Medications: module4/liquid-medications.md
     - Weight-Based Dosing: module4/weight-based-dosing.md
     - Pediatric Dosing: module4/pediatric-dosing.md
     
-  - Module 5 - IV Flow Rate Calculations:
+  - M5 · IV Rates:
     - Overview: module5/index.md
     - IV Flow Rates: module5/iv-flow-rates.md
     - Infusion Time: module5/infusion-time.md
     - Drip Rates: module5/drip-rates.md
     - IV Medications: module5/iv-medications.md
   
-  - Module 6 - Wrap-Up Challenge:
+  - M6 · Wrap-Up:
     - Overview: module6/index.md
     - Practice Set 1: module6/practice-set-1.md
     - Practice Set 2: module6/practice-set-2.md
     - Answer Key: module6/answer-key.md
     
-  - Interactive Practice:
-      - Overview: interactive-practice/index.md
-      - Dimensional Analysis: interactive-practice/dimensional-analysis.md
+  - Interactive:
+    - Overview: interactive/index.md
+    - Dimensional Analysis: interactive/dimensional-analysis.md
    
   - Reference:
     - Conversion Tables: reference/conversion-tables.md
@@ -87,7 +86,7 @@ nav:
 copyright: >
   © 2026 Carina Mata | Convergent Math
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
-  Free for personal and non-commercial use
+  Free for personal and non-commercial use.
 
 markdown_extensions:
   - admonition

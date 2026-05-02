@@ -1,6 +1,10 @@
 # Interactive Practice
 
-Use the tool below to practice dimensional analysis problems. Drag number and unit cards into the factor chain, build your conversion, and check your answer.
+Use the tool below to practice dimensional analysis problems. 
+
+- Drag number and unit cards into the factor chain
+- Build your conversion
+- Check your answer.
 
 <iframe
   src="/interactive/web/index.html"
