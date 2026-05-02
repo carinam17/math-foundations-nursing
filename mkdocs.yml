@@ -74,7 +74,10 @@ nav:
     - Practice Set 2: module6/practice-set-2.md
     - Answer Key: module6/answer-key.md
     
-    
+  - Interactive Practice:
+      - Overview: interactive-practice/index.md
+      - Dimensional Analysis: interactive-practice/dimensional-analysis.md
+   
   - Reference:
     - Conversion Tables: reference/conversion-tables.md
     - Formula Sheet: reference/formulas.md

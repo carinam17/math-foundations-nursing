@@ -14,7 +14,7 @@ By the end of this module you will be able to:
 
 - Perform operations with whole numbers, fractions, and decimals
 - Round numbers correctly to the required decimal place
-- Calculate percentages
+- Calculate and understand percentages
 - Recognize and apply patient safety rules around decimal notation
 - Apply these skills to basic clinical scenarios
 
