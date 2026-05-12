@@ -1,6 +1,4 @@
-# Whole Numbers
-
-## What Are Whole Numbers?
+## Whole Numbers
 
 Whole numbers are the counting numbers including zero: 0, 1, 2, 3, 4, 5...
 In nursing, whole numbers appear constantly number of tablets, number of 
@@ -35,6 +33,7 @@ How many tablets are needed total?
 A bottle contains 100 tablets. A patient takes 4 per day.
 How many days will the bottle last?
 
+
 \[100 \div 4 = 25 \text{ days}\]
 
 ## Practice Problems
@@ -47,7 +46,7 @@ How many days will the bottle last?
     \[2 \times 3 \times 5 = 30 \text{ tablets}\]
 
 !!! example "Problem 2"
-    A patient needs 4 doses per day. How many doses over 10 days?
+    A patient needs 4 doses of a medication per day. How many doses over 10 days?
 
 ??? success "Answer"
     \[4 \times 10 = 40 \text{ doses}\]
