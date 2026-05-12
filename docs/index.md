@@ -1,6 +1,6 @@
 # Math Foundations for Nursing
 
-Welcome to **Math Foundations for Nursing.** This guide helps nursing students build confidence and accuracy with the mathematical skills required in clinical practice. Learn and reinforce your problem-solving with relevant examples, explanations, and practice problems.
+Welcome to **Math Foundations for Nursing.** This guide helps nursing students build confidence and accuracy with the mathematical skills required in clinical practice. 
 
 ## What You Will Learn
 
@@ -11,7 +11,8 @@ Welcome to **Math Foundations for Nursing.** This guide helps nursing students b
 5. **IV Flow Rate Calculations** — drip rates, infusion times, and pump settings
 6. **Wrap Up Challenges** — end of course practice problems to review and check understanding
 
-## Getting the most out of practice problems
+
+## Getting the most out of practice problems in this book
 
 - First, complete the problem alongside an example solution
 - Then, complete the problem without a reference solution
@@ -22,10 +23,11 @@ Welcome to **Math Foundations for Nursing.** This guide helps nursing students b
 
 Remember, all skills can be practiced and improved. 
 
+
 ## Recommendations
 
-- Study consistently to proomte good learning outcomes
-- Frequent, shorter sessions are better than marathon sessions
+- Study consistently to promote better learning outcomes
+- Favor frequent, shorter sessions instead of infrequent marathon sessions
 - If you get stuck, write down what you know
 - Show your work and check your reasoning
 
