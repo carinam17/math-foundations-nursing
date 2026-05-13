@@ -1,15 +1,14 @@
 # Oral Medications
 
-## Overview
-
 Oral medications are the most common route of administration 
-in nursing. They come in solid forms — tablets, capsules, 
-and caplets — and require accurate calculation to ensure 
+in healthcare. They come in many forms: tablets, capsules, 
+and caplets. You will and require accurate calculation to ensure 
 the correct dose is given.
 
-## Reading the Medication Order
 
-Every medication order contains:
+### Medication Orders
+
+Medication orders contain:
 
 | Component | Example |
 |---|---|
@@ -22,7 +21,7 @@ Every medication order contains:
 
 
 
-## Reading the Stock Label
+### Reading the Stock Label
 
 The stock label tells you what is available:
 
@@ -33,24 +32,30 @@ The stock label tells you what is available:
 | Form | tablet |
 | Total quantity | 100 tablets |
 
-## The Calculation
 
-Once you have the order and stock, set up the unit 
-cancellation chain:
+### Calculating Dosages - Tablets and Capsules
 
-\[\frac{\text{ordered dose}}{\cancel{\text{unit}}} \times \frac{\text{quantity}}{\text{stock dose}} = \text{answer}\]
 
-## Tablets and Capsules
+#### Example 1 - Whole tablet result
 
-**Example 1 — Straightforward:**
-Order: metoprolol 50 mg orally
-Stock: 25 mg per tablet
+**Order:** metoprolol 50 mg orally
+
+
+**Stock:** 25 mg per tablet
 
 \[\frac{50 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ tablet}}{25 \cancel{\text{ mg}}} = 2 \text{ tablets}\]
 
-**Example 2 — Half tablet:**
-Order: lisinopril 5 mg orally
-Stock: 10 mg per tablet
+
+
+
+#### Example 2 - Partial tablet result
+
+
+
+**Order:** lisinopril 5 mg orally
+
+**Stock:** 10 mg per tablet
+
 
 \[\frac{5 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ tablet}}{10 \cancel{\text{ mg}}} = 0.5 \text{ tablet}\]
 
@@ -61,6 +66,7 @@ Stock: 10 mg per tablet
     - **Enteric coated tablets** should never be split or crushed
     - **Capsules** should never be split unless specifically 
       formulated as sprinkle capsules
+
 
 **Example 3 — Unit conversion required:**
 Order: levothyroxine 0.1 mg orally
@@ -90,34 +96,43 @@ Step 2 — total tablets:
 ## Reasonableness Check
 
 !!! warning "Tablet Safety Guidelines"
-    - Giving **more than 3 tablets** per dose is unusual — recheck
-    - Giving **less than 0.5 tablet** is unusual — recheck
-    - If the answer is not a multiple of 0.5, recheck your work
+
+Verify results if:
+    - Giving **more than 3 tablets** per dose
+    - Giving **less than 0.5 tablet** per dose
+    - Answer is not a multiple of 0.5
     - Never crush or split medications without verifying it is safe
+
 
 ## Practice Problems
 
 !!! example "Problem 1"
-    Order: atenolol 100 mg orally
-    Stock: 50 mg per tablet
+    **Order:** atenolol 100 mg orally &nbsp;&nbsp;&nbsp; **Stock:** 50 mg per tablet
+
+
     How many tablets?
 
 ??? success "Answer"
     \[\frac{100 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ tablet}}{50 \cancel{\text{ mg}}} = 2 \text{ tablets}\]
 
+
+
+
 !!! example "Problem 2"
-    Order: warfarin 2.5 mg orally
-    Stock: 5 mg per tablet
+    **Order:** warfarin 2.5 mg orally &nbsp;&nbsp;&nbsp; **Stock:** 5 mg per tablet
+
     How many tablets?
+
 
 ??? success "Answer"
     \[\frac{2.5 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ tablet}}{5 \cancel{\text{ mg}}} = 0.5 \text{ tablet}\]
     
     Verify tablet is scored before splitting.
 
+
 !!! example "Problem 3"
-    Order: levothyroxine 0.075 mg orally
-    Stock: 25 mcg per tablet
+    **Order:** levothyroxine 0.075 mg orally &nbsp;&nbsp;&nbsp; **Stock:** 25 mcg per tablet
+
     How many tablets?
 
 ??? success "Answer"
@@ -158,14 +173,14 @@ Step 2 — total tablets:
         stock concentration, and consult the prescriber 
         or pharmacist. Do not administer without clarification.
 
+
+
 !!! warning "Clinical Tip"
-    Always read the medication label three times:
+    Read the medication label at different stages:
     
     1. When retrieving the medication from storage
     2. When preparing the dose
     3. Before administering to the patient
     
-    This is not a suggestion — it is a professional standard.
-    
-    
+
 

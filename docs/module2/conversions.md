@@ -1,11 +1,9 @@
-# Converting Between Units
+## Converting Between Units
 
-## Overview
 
 Unit conversion is the process of expressing a measurement in 
 a different unit while keeping the same value. In nursing, you 
-will constantly convert between units — metric to metric, 
-household to metric, and back again.
+will will convert between units, including household units and metric units.
 
 ## The Conversion Factor Method
 
@@ -15,8 +13,15 @@ different units.
 
 \[\frac{1000 \text{ mg}}{1 \text{ g}} = 1\]
 
+You may need to flip this factor, depending on the conversion needs. 
+
+
+\[\frac{1 \text{ g}}{1000 \text{ mg}} = 1\]
+
 Because it equals 1, multiplying by it changes the unit 
 without changing the value.
+
+
 
 ## Step-by-Step Method
 

@@ -1,13 +1,16 @@
 # The Metric System
 
-## Why Metric?
 
 The metric system is the international standard for medication 
 dosing and clinical measurement. Unlike household measurements, 
-the metric system is decimal-based — everything scales by 
+the metric system is decimal-based. Everything scales by 
 powers of 10, making conversions straightforward.
 
+
+
 ## Base Units in Nursing
+
+The base unit is an unscaled unit. Use it as a baseline conversion factor.
 
 | Measurement | Base Unit | Abbreviation |
 |---|---|---|
@@ -15,9 +18,11 @@ powers of 10, making conversions straightforward.
 | Volume | liter | L |
 | Length | meter | m |
 
+
 ## Prefixes
 
-Prefixes modify the base unit by a power of 10:
+Prefixes modify the base unit by a power of 10.
+
 
 | Prefix | Symbol | Meaning | Example |
 |---|---|---|---|
@@ -26,39 +31,50 @@ Prefixes modify the base unit by a power of 10:
 | milli | m | × 0.001 | 1 mg = 0.001 g |
 | micro | mc or µ | × 0.000001 | 1 mcg = 0.001 mg |
 
+
 !!! info "Memory Tip"
-    Think of it as a staircase — each step down multiplies by 1000:
-    
+    Create a chain of the units and prefixes, as shown below.
+
     \[\text{kg} \rightarrow \text{g} \rightarrow \text{mg} \rightarrow \text{mcg}\]
     
-    Moving **down** the staircase (larger to smaller unit) — multiply by 1000
+    Moving to the **right** takes you from a larger to smaller unit. Multiply by 1000 for each step.
     
-    Moving **up** the staircase (smaller to larger unit) — divide by 1000
+    Moving to the left takes you from a smaller to larger unit. Divide by 1000 for each step.
 
-## Key Weight Conversions
 
-\[1 \text{ kg} = 1000 \text{ g}\]
-\[1 \text{ g} = 1000 \text{ mg}\]
-\[1 \text{ mg} = 1000 \text{ mcg}\]
 
-## Key Volume Conversions
+### Key Weight Conversions
 
-\[1 \text{ L} = 1000 \text{ mL}\]
-\[1 \text{ dL} = 100 \text{ mL}\]
+$$ 1 \text{ kg} = 1000 \text{ g} $$
 
-## Abbreviation Safety
+$$ 1 \text{ g} = 1000 \text{ mg} $$
+
+
+$$ 1 \text{ mg} = 1000 \text{ mcg} $$
+
+### Key Volume Conversions
+
+$$1 \text{ L} = 1000 \text{ mL}$$
+
+$$1 \text{ dL} = 100 \text{ mL}$$
+
+
+
+### Abbreviation Safety
 
 !!! danger "mcg vs mg"
-    Never abbreviate microgram as **µg** in handwritten orders — 
-    it can be misread as **mg**, resulting in a 1000x overdose.
+    Do not abbreviate microgram as **µg** in handwritten orders.
+    It can be misread as **mg**, resulting in a 1000x overdose.
     Always write **mcg** in full.
+
 
 !!! danger "Units of Insulin"
     Never abbreviate **units** as **U** for insulin orders. 
     **U** can be misread as a zero, turning 4U into 40 units. 
     Always write **units** in full.
 
-## Clinical Application
+
+### Clinical Application
 
 **Example 1:**
 A medication order reads 0.5 g. Stock is labeled in mg. 

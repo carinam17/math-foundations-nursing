@@ -1,6 +1,5 @@
 # Household Measurements
 
-## Overview
 
 While the metric system is standard in clinical settings, nurses 
 frequently encounter household measurements when:
@@ -25,6 +24,7 @@ essential for patient education and safe home care instructions.
 | pint | pt | 480 mL |
 | quart | qt | 960 mL |
 
+
 ### Weight
 
 | Household Unit | Abbreviation | Metric Equivalent |
@@ -33,52 +33,34 @@ essential for patient education and safe home care instructions.
 | pound | lb | 453.6 g |
 | pound | lb | 0.454 kg |
 
+
+
 ### Key Weight Conversion
 
 \[1 \text{ kg} = 2.2 \text{ lb}\]
 
-This is the most important household-to-metric weight conversion 
-in nursing — used constantly for weight-based dosing.
+This is an important household-to-metric weight conversion.
 
-## Memorization Tips
-
-!!! tip "Volume Relationships"
-    Build up from the teaspoon:
-
-    \[1 \text{ tbsp} = 3 \text{ tsp} = 15 \text{ mL}\]
-    \[1 \text{ fl oz} = 2 \text{ tbsp} = 30 \text{ mL}\]
-    \[1 \text{ cup} = 8 \text{ fl oz} = 240 \mL}\]
+## Tips
 
 !!! tip "Weight Shortcut"
-    To convert **lb to kg** — divide by 2.2
+    Divide by 2.2 to convert **lb** to **kg**.
     
-    To convert **kg to lb** — multiply by 2.2
+    Multiply by 2.2 to convert **kg to lb**.
 
-## Clinical Application
 
-**Example 1:**
-A patient reports taking 2 teaspoons of liquid medication at home.
-Convert to mL for the medication record:
+!!! warning "Check your Results"
 
-\[2 \text{ tsp} \times 5 \text{ mL/tsp} = 10 \text{ mL}\]
+    Converting from a larger unit to a smaller unit should produce a larger number.
 
-**Example 2:**
-A patient weighs 154 lb. A weight-based medication requires 
-the weight in kg. Convert:
+    Converting from a smaller unit to a large unit should produce a smaller number.
 
-\[154 \text{ lb} \div 2.2 = 70 \text{ kg}\]
 
-**Example 3:**
-A discharge instruction says to take 1 tablespoon of medication 
-twice daily. How many mL per day?
+    For example, 100 kg = 220 lbs. Pounds are a smaller unit than kilograms so the resulting number is larger. 
 
-\[1 \text{ tbsp} = 15 \text{ mL} \times 2 = 30 \text{ mL/day}\]
 
-**Example 4:**
-A patient is prescribed 30 mL of an oral solution. 
-How many tablespoons should you instruct them to take at home?
+    Conversely, 200 mL = 0.2 L. Liters are a larger unit than mL, so the resulting number is smaller. 
 
-\[30 \text{ mL} \div 15 \text{ mL/tbsp} = 2 \text{ tbsp}\]
 
 ## Patient Education
 
@@ -134,6 +116,6 @@ How many tablespoons should you instruct them to take at home?
 
 !!! warning "Clinical Tip"
     Always obtain and document patient weight in **kg** in clinical 
-    settings. If a patient only knows their weight in pounds, 
-    convert immediately and record in kg to avoid confusion 
+    settings. If a patient gives their weight in **pounds**, 
+    convert immediately and record in **kg** to avoid confusion 
     during weight-based dosing calculations.

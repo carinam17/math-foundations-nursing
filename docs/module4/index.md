@@ -1,26 +1,22 @@
 # Module 4 - Dosage Calculations
 
-## Overview
+This module focuses on calculating the correct amount of medication to administer 
+across common clinical scenarios.
 
-Dosage calculation is the direct application of everything 
-covered in Modules 1 through 3. This module focuses on 
-calculating the correct amount of medication to administer 
-across the most common clinical scenarios.
 
-Every calculation in this module uses **unit cancellation** 
-as the primary method. If any step feels unclear, return 
-to Module 3 before continuing.
+Every calculation in this module uses **dimensional analysis** and relies on **unit cancellation**. 
 
 ## Learning Objectives
 
 By the end of this module you should be able to:
 
-- Calculate the correct number of tablets or capsules to administer
-- Calculate the correct volume of liquid medication to administer
+- Calculate the correct number of **tablets** or **capsules** to administer
+- Calculate the correct **volume** of liquid medication to administer
 - Calculate weight-based doses for adult patients
 - Calculate weight-based doses for pediatric patients
 - Identify and flag unreasonable answers before administering
 - Apply the seven rights of medication administration
+
 
 ## Topics
 

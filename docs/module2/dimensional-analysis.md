@@ -1,51 +1,66 @@
 # Dimensional Analysis
 
-## What Is Dimensional Analysis?
-
 Dimensional analysis (also called the **factor-label method** or 
 **unit-factor method**) is a systematic approach to solving 
 conversion and dosage problems by tracking units through 
 every step of the calculation.
 
-It is the preferred method in nursing because:
+It is a recommened method  because:
 
 - It works for simple and complex problems alike
 - Units cancel visually so errors are easy to spot
 - It reduces the need to memorize formulas
 - It produces a clear written trail you can check
 
-## How It Works
 
-Write the problem as a chain of fractions where unwanted 
-units cancel diagonally, leaving only the desired unit.
+## Overview
 
-\[\text{Given} \times \frac{\text{conversion factor 1}}{1} \times \frac{\text{conversion factor 2}}{1} = \text{answer in desired unit}\]
+
+Write the problem as a chain of factors where unwanted 
+units cancel diagonally, leaving only the desired unit. You may use one or multiple factors, depending on the conversion.
+
+
+\[\text{Given} \times  \text{Conversion Factor 1} \times \text{Conversion Factor 1} = \text{Result in Desired Unit}\]
+
+
+### Unit Cancellation
 
 Units that appear in both a numerator and denominator cancel out:
 
-\[\frac{\cancel{\text{mg}}}{1} \times \frac{1}{\cancel{\text{mg}}} = 1\]
+\[\frac{\cancel{\text{mg}}}{ } \times \frac{ }{\cancel{\text{mg}}}\]
 
-## Step-by-Step Process
 
-1. **Identify** what you are given (starting value and unit)
-2. **Identify** what unit you want to end with
-3. **Set up** conversion fractions so unwanted units cancel
-4. **Multiply** all numerators together
-5. **Multiply** all denominators together
-6. **Divide** and apply rounding rules
+
+### Step-by-Step Process
+
+
+1. **Identify** what you are given (a value and unit)
+2. **Identify** the unit you want to end with
+3. **Set up** conversion factor(s) as fraction(s) to cancel unwanted units
+4. **Multiply** all numbers in the numerators together
+5. **Multiply** all numbers in the denominators together
+6. **Divide** the numerator result by the denominator result
+7. **Apply** rounding rules and proper abbreviation
 7. **Check** that only the desired unit remains
 
-## Single Step Example
+Don't forget that a you can fill in the number 1 if needed.
+
+### Single Step Example
 
 Convert 250 mg to g.
 
-\[250 \cancel{\text{ mg}} \times \frac{1 \text{ g}}{1000 \cancel{\text{ mg}}} = \frac{250}{1000} \text{ g} = 0.25 \text{ g}\]
+\[ \frac{250 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ g}}{1000 \cancel{\text{ mg}}} = \frac{250}{1000} \text{ g} = 0.25 \text{ g}\]
 
-Note how **mg** cancels leaving only **g**.
 
-## Multi-Step Example
 
-Convert 3 tsp to L.
+Unit Check: **mg** cancels leaving only **g**.
+
+### Multi-Step Example
+
+
+**Convert 3 tsp to L.**
+
+
 
 \[3 \cancel{\text{ tsp}} \times \frac{5 \cancel{\text{ mL}}}{1 \cancel{\text{ tsp}}} \times \frac{1 \text{ L}}{1000 \cancel{\text{ mL}}} = \frac{15}{1000} \text{ L} = 0.015 \text{ L}\]
 
@@ -117,14 +132,9 @@ How many mg?
 ??? success "Answer"
     \[3 \cancel{\text{ tbsp}} \times \frac{15 \cancel{\text{ mL}}}{1 \cancel{\text{ tbsp}}} \times \frac{1 \text{ L}}{1000 \cancel{\text{ mL}}} = \frac{45}{1000} = 0.045 \text{ L}\]
 
-!!! warning "Clinical Tip"
+!!! warning "Best Practices"
     Always write out every unit in every step. Skipping units 
-    to save time is how errors happen. The few extra seconds 
-    it takes to write units out could prevent a serious 
-    medication error.
+    to save time can produce hard-to-find errors.
 
 !!! tip "Moving Forward"
-    Dimensional analysis will be used in every remaining module. 
-    If any problem in this course feels confusing, come back 
-    here and set it up as a unit-cancellation chain — 
-    it will almost always clarify the path to the answer.
+    **Dimensional analysis** will be used in every remaining module. Start with single and multi-step unit conversions until you're confident before trying more complicated calculations. 

@@ -7,6 +7,7 @@ practice. Medication orders, lab values, and IV solutions all use
 specific units of measurement. A conversion error can result in a 
 serious medication error.
 
+
 ## Learning Objectives
 
 By the end of this module you should be able to:
@@ -16,6 +17,7 @@ By the end of this module you should be able to:
 - Convert between units within the metric system
 - Convert between metric and household measurements
 - Apply dimensional analysis to solve conversion problems
+
 
 ## Topics
 
@@ -41,6 +43,5 @@ Approximately 1.5–2 hours including practice problems.
 
 !!! info "Why This Matters"
     Medication orders may be written in one unit while stock is 
-    labeled in another. For example, an order for 0.5 g when 
-    tablets are labeled in mg. You must convert confidently 
-    before calculating any dose.
+    labeled in another. For example, an order may call for 0.5 **g** whereas the
+    tablets are labeled in **mg**. 
