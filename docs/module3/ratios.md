@@ -1,14 +1,11 @@
 # Ratios
 
-## What Is a Ratio?
-
-A ratio expresses a relationship between two quantities. 
-In nursing, ratios describe concentrations, doses, and rates — 
-how much of something exists relative to something else.
+A ratio expresses a relationship between two quantities.
+Ratios can describe concentrations, doses, and rates. 
 
 ## Writing Ratios
 
-A ratio can be written three ways — all equivalent:
+A ratio can be written three ways:
 
 | Format | Example |
 |---|---|
@@ -18,6 +15,7 @@ A ratio can be written three ways — all equivalent:
 
 In calculations, the **fraction format** is preferred because 
 it integrates cleanly with dimensional analysis.
+
 
 ## Ratios in Medication Labels
 

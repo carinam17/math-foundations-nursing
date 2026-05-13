@@ -3,12 +3,15 @@
 Use the tool below to practice dimensional analysis problems. 
 
 - Drag number and unit cards into the factor chain
-- Build your conversion
+- Build your conversion 
+- Click **cancellation** button to see which units cancel
+- Click **calculate** button to get result
 - Check your answer.
 
 
 
 ### Quick Guide
+
 
 ??? info "1. What info do I need?"
     Identify the **given value** and the **target unit**. You may need additional information like conversion rates. 

@@ -7,6 +7,10 @@ import os
 # ---- Fonts ---------
 FONT_DIR = os.path.join(os.path.dirname(__file__), "fonts")
 
+print("FONT_DIR:", FONT_DIR)
+print("Bold exists:", os.path.exists(os.path.join(FONT_DIR, "NotoSans-Bold.ttf")))
+print("Regular exists:", os.path.exists(os.path.join(FONT_DIR, "NotoSans-Regular.ttf")))
+
 # ── Constants ────────────────────────────────────────────────────────────────
 WINDOW_W, WINDOW_H = 1200, 820
 FPS = 60
@@ -739,117 +743,45 @@ def draw_intro_title(surface, fonts, theme_name):
 
 
 def draw_intro_what(surface, fonts, theme_name):
-    """Screen 1 — Step 1: Identify relevant information."""
+    """Screen 1 — What is dimensional analysis?"""
     W, H = surface.get_size()
     rects, tog_r = draw_intro_shell(
-        surface, fonts, theme_name, step=0, total_steps=4,
-        title="Step 1: Identify Relevant Information",
+        surface, fonts, theme_name, step=0, total_steps=3,
+        title="What is Dimensional Analysis?",
         btn_left=None, btn_mid="Skip to Practice", btn_right="Next"
     )
     rects["toggle"] = tog_r
 
-    body_x, body_w = 100, W - 200
-    y = 108
+    body_x, body_w = 120, W - 240
+    y = 115
 
-    t = fonts["sm"].render("Every problem gives you a starting value and a target unit. Find them first.", True, c("TEXT_MID"))
-    surface.blit(t, t.get_rect(centerx=W // 2, y=y))
-    y += 40
-
-    examples = [
-        ("Unit conversion",   "500 mg",                              "g"),
-        ("Oral medication",   "Order 750 mg, supply 250 mg/tablet",  "tablets"),
-        ("Weight-based dose", "5 mg/kg, patient 60 kg",              "mg"),
-        ("IV therapy",        "1000 mL over 8 hr",                   "mL/hr"),
+    paras = [
+        ("The core idea",
+         "Dimensional analysis (DA) is a systematic method for converting between units "
+         "and solving dosage calculations. Instead of memorizing formulas, you build a "
+         "chain of fractions where units cancel until you\'re left with exactly the unit "
+         "you need."),
+        ("Why nurses use it",
+         "DA reduces medication errors by making every step visible and checkable. "
+         "If your units don\'t cancel correctly, you know something is wrong before "
+         "a patient is affected."),
+        ("The golden rule",
+         "Any number divided by itself equals 1. So multiplying by a conversion "
+         "factor like (1000 mg / 1 g) doesn\'t change the value — it only changes "
+         "the unit. That\'s the entire mechanism."),
     ]
 
-    col_type_x   = body_x
-    col_given_x  = body_x + 190
-    col_target_x = body_x + 620
-
-    for label, x in [("Problem type", col_type_x), ("Given", col_given_x), ("Target unit", col_target_x)]:
-        t = fonts["btn"].render(label, True, c("ACCENT"))
-        surface.blit(t, (x, y))
-    y += 28
-    pygame.draw.line(surface, c("DIVIDER"), (body_x, y), (body_x + body_w, y), 1)
-    y += 10
-
-    for prob_type, given, target in examples:
-        row_r = pygame.Rect(body_x - 8, y - 4, body_w + 16, 34)
-        pygame.draw.rect(surface, c("SLOT_BG"), row_r, border_radius=6)
-        t = fonts["sm"].render(prob_type, True, c("TEXT_DARK"))
-        surface.blit(t, (col_type_x, y + 6))
-        t = fonts["sm"].render(given, True, c("TEXT_MID"))
-        surface.blit(t, (col_given_x, y + 6))
-        t = fonts["btn"].render(target, True, c("ACCENT"))
-        surface.blit(t, (col_target_x, y + 6))
-        y += 42
-
-    return rects
-
-
-def draw_intro_notation(surface, fonts, theme_name):
-    """Screen 2 — Step 2: Write information as factors."""
-    W, H = surface.get_size()
-    rects, tog_r = draw_intro_shell(
-        surface, fonts, theme_name, step=1, total_steps=4,
-        title="Step 2: Write Information as Factors",
-        btn_left="Back", btn_mid="Skip to Practice", btn_right="Next"
-    )
-    rects["toggle"] = tog_r
-
-    body_x = 100
-    y = 108
-
-    t = fonts["sm"].render("Every piece of information becomes a fraction. Every number needs a unit — top or bottom.", True, c("TEXT_MID"))
-    surface.blit(t, t.get_rect(centerx=W // 2, y=y))
-    y += 50
-
-    frac_w, frac_h = 130, 60
-    gap = 40
-
-    def draw_frac(sx, sy, num, den, num_col=None, den_col=None):
-        fr = pygame.Rect(sx, sy, frac_w, frac_h)
-        pygame.draw.rect(surface, c("SLOT_BG"), fr, border_radius=8)
-        pygame.draw.rect(surface, c("SLOT_BORDER"), fr, 1, border_radius=8)
-        mid_y = sy + frac_h // 2
-        pygame.draw.line(surface, c("DIVIDER"), (sx + 10, mid_y), (sx + frac_w - 10, mid_y), 2)
-        t_n = fonts["sm"].render(num, True, num_col or c("ACCENT"))
-        t_d = fonts["sm"].render(den, True, den_col or c("TEXT_MID"))
-        surface.blit(t_n, t_n.get_rect(centerx=sx + frac_w // 2, centery=sy + frac_h // 4))
-        surface.blit(t_d, t_d.get_rect(centerx=sx + frac_w // 2, centery=sy + frac_h * 3 // 4))
-
-    # Example 1 — Writing a rate
-    t = fonts["btn"].render("Writing a supply rate as a factor:", True, c("ACCENT"))
-    surface.blit(t, (body_x, y))
-    y += 32
-
-    ex1_x = body_x + 20
-    draw_frac(ex1_x, y, "250 mg", "1 tablet")
-    t = fonts["sm"].render('Supply: 250 mg per tablet', True, c("TEXT_MID"))
-    surface.blit(t, (ex1_x + frac_w + 20, y + frac_h // 2 - 10))
-    y += frac_h + 30
-
-    # Example 2 — Flipping
-    t = fonts["btn"].render("Flip a factor when you need the unit on the other side:", True, c("ACCENT"))
-    surface.blit(t, (body_x, y))
-    y += 32
-
-    ex2_x = body_x + 20
-    draw_frac(ex2_x, y, "250 mg", "1 tablet")
-    t = fonts["md"].render("or", True, c("TEXT_MID"))
-    surface.blit(t, t.get_rect(midleft=(ex2_x + frac_w + 14, y + frac_h // 2)))
-    draw_frac(ex2_x + frac_w + gap + 30, y, "1 tablet", "250 mg")
-    t = fonts["sm"].render("Same relationship — just flipped. Choose whichever makes units cancel.", True, c("TEXT_MID"))
-    surface.blit(t, (ex2_x, y + frac_h + 10))
-    y += frac_h + 50
-
-    # Tip box
-    tip_r = pygame.Rect(body_x, y, W - body_x * 2, 44)
-    pygame.draw.rect(surface, c("ORANGE_BG"), tip_r, border_radius=8)
-    pygame.draw.rect(surface, c("ORANGE"), tip_r, 1, border_radius=8)
-    tip = "Tip: A whole number like 500 mg becomes  500 mg / 1  — the denominator is always 1."
-    t = fonts["sm"].render(tip, True, c("ORANGE"))
-    surface.blit(t, t.get_rect(midleft=(body_x + 16, tip_r.centery)))
+    for heading, body in paras:
+        # Heading
+        t = fonts["btn"].render(heading, True, c("ACCENT"))
+        surface.blit(t, (body_x, y))
+        y += 30
+        # Body wrapped
+        for line in wrap_text(body.replace("\'", "'"), fonts["sm"], body_w):
+            t = fonts["sm"].render(line, True, c("TEXT_DARK"))
+            surface.blit(t, (body_x, y))
+            y += 24
+        y += 16
 
     return rects
 
@@ -858,8 +790,8 @@ def draw_intro_chain(surface, fonts, theme_name):
     """Screen 2 — How the chain works (annotated diagram)."""
     W, H = surface.get_size()
     rects, tog_r = draw_intro_shell(
-        surface, fonts, theme_name, step=2, total_steps=4,
-        title="Step 3: Arrange Factors to Cancel Units",
+        surface, fonts, theme_name, step=1, total_steps=3,
+        title="How the Factor Chain Works",
         btn_left="Back", btn_mid="Skip to Practice", btn_right="Next"
     )
     rects["toggle"] = tog_r
@@ -951,8 +883,8 @@ def draw_intro_example(surface, fonts, theme_name):
     """Screen 3 — Worked example with step-by-step explanation."""
     W, H = surface.get_size()
     rects, tog_r = draw_intro_shell(
-        surface, fonts, theme_name, step=3, total_steps=4,
-        title="Step 4: Calculate the Result",
+        surface, fonts, theme_name, step=2, total_steps=3,
+        title="A Worked Example",
         btn_left="Back", btn_mid=None, btn_right="Go to Practice"
     )
     rects["toggle"] = tog_r
@@ -1156,7 +1088,7 @@ async def main():
             progress[key] = [False] * len(tier["problems"])
 
     # Game state
-    screen_mode   = "title"     # "title"|"intro_what"|"intro_notation"|"intro_chain"|"intro_example"|"welcome"|"game"
+    screen_mode   = "title"     # "title"|"intro_what"|"intro_chain"|"intro_example"|"welcome"|"game"
     active_cat    = None
     active_tier   = None
     active_prob_i = 0
@@ -1255,27 +1187,6 @@ async def main():
                     elif btn_rects.get("mid") and btn_rects["mid"].collidepoint(ex, ey):
                         screen_mode = "welcome"
                     elif btn_rects.get("right") and btn_rects["right"].collidepoint(ex, ey):
-                        screen_mode = "intro_notation"
-            pygame.display.flip()
-            clock.tick(FPS)
-            await asyncio.sleep(0)
-            continue
-
-        if screen_mode == "intro_notation":
-            btn_rects = draw_intro_notation(screen, fonts, theme_name)
-            for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    pygame.quit(); sys.exit()
-                if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-                    ex, ey = event.pos
-                    if btn_rects["toggle"].collidepoint(ex, ey):
-                        theme_name = "dark" if theme_name == "light" else "light"
-                        T.update(apply_theme(theme_name))
-                    elif btn_rects.get("left") and btn_rects["left"].collidepoint(ex, ey):
-                        screen_mode = "intro_what"
-                    elif btn_rects.get("mid") and btn_rects["mid"].collidepoint(ex, ey):
-                        screen_mode = "welcome"
-                    elif btn_rects.get("right") and btn_rects["right"].collidepoint(ex, ey):
                         screen_mode = "intro_chain"
             pygame.display.flip()
             clock.tick(FPS)
@@ -1293,7 +1204,7 @@ async def main():
                         theme_name = "dark" if theme_name == "light" else "light"
                         T.update(apply_theme(theme_name))
                     elif btn_rects.get("left") and btn_rects["left"].collidepoint(ex, ey):
-                        screen_mode = "intro_notation"
+                        screen_mode = "intro_what"
                     elif btn_rects.get("mid") and btn_rects["mid"].collidepoint(ex, ey):
                         screen_mode = "welcome"
                     elif btn_rects.get("right") and btn_rects["right"].collidepoint(ex, ey):
@@ -1560,10 +1471,10 @@ async def main():
 
         ty = 125
         if given_part:
-            t = font_prob.render(given_part, True, c("TEXT_DARK"))
+            t = font_sm.render(given_part, True, c("TEXT_MID"))
             screen.blit(t, (CHAIN_LEFT, ty))
             ty += 28
-        t = font_sm.render(question_part, True, c("TEXT_MID"))
+        t = font_prob.render(question_part, True, c("TEXT_DARK"))
         screen.blit(t, (CHAIN_LEFT, ty))
 
         # Buttons above chain

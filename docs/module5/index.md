@@ -1,6 +1,5 @@
 # Module 5 - IV Flow Rate Calculations
 
-## Overview
 
 Intravenous (IV) therapy delivers fluids, electrolytes, 
 and medications directly into the bloodstream. Find both the volume and drip rate for IV administration .
@@ -9,6 +8,7 @@ This module builds directly on the unit cancellation
 method from Module 3 and the dosage calculation skills 
 from Module 4.
 
+ 
 ## What you'll learn
 
 By the end of this module you should be able to:
@@ -20,6 +20,7 @@ By the end of this module you should be able to:
 - Calculate flow rates for continuous IV medication infusions
 - Verify doses from running infusion rates
 - Identify and respond to unreasonable pump settings
+
 
 ## Topics
 
@@ -36,16 +37,15 @@ Approximately 2-2.5 hours including practice problems.
 
 ## Clinical Relevance
 
-!!! danger "IV Errors Are Immediately Dangerous"
+!!! danger "IV Errors Are Especially Dangerous"
     Unlike oral medications which are absorbed gradually, 
     IV medications enter the bloodstream instantly. 
     There is no opportunity to reverse an error once 
     an infusion has begun.
     
-    Always double check IV calculations. Always verify 
-    pump settings. Always know the signs of IV 
-    complications — infiltration, phlebitis, and 
-    extravasation.
+    Verify both IV calculations and
+    pump settings. 
+
 
 !!! info "Equipment You Will Use"
     | Equipment | Purpose |
@@ -55,13 +55,13 @@ Approximately 2-2.5 hours including practice problems.
     | Microdrip set (60 gtt/mL) | Precise low-volume infusions |
     | Burette | Pediatric and critical care dosing |
 
+
 !!! tip "Before You Begin"
     Make sure you are comfortable with unit cancellation 
     from Module 3. Every calculation in this module 
-    is a unit cancellation chain — time, volume, 
-    concentration, and rate all need to cancel cleanly 
-    to the unit you want.
-    
+    is a unit cancellation chain with multiple measurements. Time, volume, 
+    concentration, and rates all need to cancel correctly.  
+
     If any setup feels unclear, return to 
     [Unit Cancellation](../module3/unit-cancellation.md) 
     before continuing.
