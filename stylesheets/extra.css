@@ -1,41 +1,82 @@
+
+
+/* final style */ 
+
+
+
 /* .md-typeset table {
   font-size: 2rem;
 }
-
-
 
 .md-typeset {
   font-size: 1.0rem;
 }
 
-
-
 .md-typeset table, .md-typeset table p {
   font-size: 1.0rem !important;
 }
-
-
 .md-typeset .admonition,
 .md-typeset .admonition-title {
   font-size: 1rem;
 }
 
-*/
-
-
-:root {
-  --book-font-size: 1rem;
-}
-
-.md-typeset {
-  font-size: var(--book-font-size);
-}
 
 .md-typeset table {
   font-size: var(--book-font-size);
 }
 
-.md-typeset .admonition,
-.md-typeset .admonition-title {
+
+
+
+*/
+
+
+:root {
+  --book-font-size:22px;
+}
+
+/* Headings */
+h1 {
+  color: #00695c !important; /* dark teal */
+}
+
+h2 {
+  color: #00897b !important; /* medium teal */
+}
+
+h3 {
+  color: #0097a7 !important; /* cyan-teal */
+}
+
+h4 {
+  color: #00acc1 !important; /* light cyan */
+}
+
+
+
+.md-typeset {
   font-size: var(--book-font-size);
+}
+
+
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  font-size: 22px !important;
+}
+
+
+.md-typeset .admonition,s
+.md-typeset .admonition-title {
+  font-size:22px;
+}
+
+
+
+.md-typeset details,
+.md-typeset details p,
+.md-typeset details summary,
+.md-typeset .admonition,
+.md-typeset .admonition p {
+  font-size: 22px !important;
 }
