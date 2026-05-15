@@ -16,7 +16,9 @@ specific areas that need review.
       and review the relevant module before attempting 
       Practice Set 2
 
+
 ---
+
 
 ## Section 1 — Unit Conversions
 
@@ -38,7 +40,9 @@ specific areas that need review.
 ??? success "Answer"
     $$\dfrac{143 \cancel{\text{ lb}}}{1} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 65 \text{ kg}$$
 
+
 ---
+
 
 ## Section 2 — Oral Tablets
 
@@ -69,7 +73,9 @@ specific areas that need review.
 ??? success "Answer"
     \[\frac{0.15 \cancel{\text{ mg}}}{1} \times \frac{1000 \cancel{\text{ mcg}}}{1 \cancel{\text{ mg}}} \times \frac{1 \text{ tablet}}{50 \cancel{\text{ mcg}}} = 3 \text{ tablets}\]
 
+
 ---
+
 
 ## Section 3 — Oral Liquids
 
@@ -103,6 +109,7 @@ specific areas that need review.
     Round to nearest tenth: **3.8 mL**
 
 ---
+
 
 ## Section 4 — Weight-Based Dosing (Adult)
 
@@ -173,7 +180,9 @@ $$\frac{70 \cancel{\text{ kg}}}{1} \times \frac{0.1 \cancel{\text{ mg}}}{1 \canc
 
 **Note:** You can break the factors into separate step if needed. 
 
+
 ---
+
 
 ## Section 5 — Weight-Based Dosing (Pediatric)
 
@@ -221,8 +230,6 @@ $$\dfrac{500 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{250 \cancel{\tex
     **How many mL per dose?**
 
 
-
-
 ??? success "Answer"
 
 Total daily dose:
@@ -243,6 +250,7 @@ $$1000 \div 4 = 250 \text{ mg per dose}$$
 Volume:
 
 $$\dfrac{1000 \cancel{\text{ mg}}}{1 \text{ day}} \times \frac{5 \text{ mL}}{125 \cancel{\text{ mg}}} = 10 \text{ mL}$$
+
 
 ---
 

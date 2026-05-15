@@ -47,6 +47,7 @@ Approximately 2-2.5 hours including practice problems.
     pump settings. 
 
 
+
 !!! info "Equipment You Will Use"
     | Equipment | Purpose |
     |---|---|
