@@ -8,6 +8,7 @@ the answer. Write out every step using unit cancellation.
 This set is organized by topic to help you identify 
 specific areas that need review.
 
+
 !!! tip "How to Use This Set"
     - Attempt every problem before checking the answer
     - If you get a problem wrong, identify exactly 
@@ -260,12 +261,18 @@ $$\dfrac{1000 \cancel{\text{ mg}}}{1 \text{ day}} \times \frac{5 \text{ mL}}{125
     Order: 1000 mL 0.9% NaCl over 8 hours
     What is the flow rate in mL/hr?
 
+
+
 ??? success "Answer"
     \[\frac{1000 \text{ mL}}{8 \text{ hr}} = 125 \text{ mL/hr}\]
+
+
 
 !!! example "Problem 18"
     Order: 250 mL over 45 minutes
     What is the flow rate in mL/hr?
+
+
 
 ??? success "Answer"
     Convert time:
@@ -276,10 +283,13 @@ $$\dfrac{1000 \cancel{\text{ mg}}}{1 \text{ day}} \times \frac{5 \text{ mL}}{125
     
     Round to: **333 mL/hr**
 
+
 !!! example "Problem 19"
     A 1000 mL bag is running at 150 mL/hr.
 
     After 3 hours how much fluid remains and how much longer will it run?
+
+
 
 ??? success "Answer"
 
@@ -342,6 +352,7 @@ $$\dfrac{0.67 \text{ hr}}{1} \times \dfrac{1 \text{ hr}}{60 \text{ min}} = 40 \t
     Order: vancomycin 1000 mg in 250 mL over 90 minutes
     What is the flow rate in mL/hr?
 
+
 ??? success "Answer"
     Convert time:
     \[90 \cancel{\text{ min}} \times \frac{1 \text{ hr}}{60 \cancel{\text{ min}}} = 1.5 \text{ hr}\]
@@ -352,10 +363,13 @@ $$\dfrac{0.67 \text{ hr}}{1} \times \dfrac{1 \text{ hr}}{60 \text{ min}} = 40 \t
     Round to: **167 mL/hr**
 
 
+
 !!! example "Problem 23"
     Order: heparin 1000 units/hr IV
     Stock: 25,000 units in 500 mL 0.9% NaCl
     What is the flow rate in mL/hr?
+
+
 
 ??? success "Answer"
     Concentration:
@@ -364,6 +378,7 @@ $$\dfrac{0.67 \text{ hr}}{1} \times \dfrac{1 \text{ hr}}{60 \text{ min}} = 40 \t
     Flow rate:
     \[\frac{1000 \text{ units/hr}}{50 \text{ units/mL}} = 20 \text{ mL/hr}\]
 
+
 !!! example "Problem 24"
     Order: dopamine 5 mcg/kg/min IV
     Patient weight: 60 kg
@@ -371,16 +386,24 @@ $$\dfrac{0.67 \text{ hr}}{1} \times \dfrac{1 \text{ hr}}{60 \text{ min}} = 40 \t
     What is the flow rate in mL/hr?
 
 
+
+
 ??? success "Answer"
 Dose per minute:
+
+
 
 $$ \dfrac{60 \cancel{\text{ kg}}}{1} \times \frac{5 \text{ mcg}}{1 \cancel{\text{ kg}} \cdot \text{min}} = 300 \text{ mcg/min}$$
     
 
+
+
 Convert to mg/hr:
+
 
 $$\dfrac{300 \cancel{\text{ mcg}}{1 \text{min}} \times \frac{1 \cancel{\text{ mg}}}{1000 \cancel{\text{ mcg}}} \times \frac{60 \text{ min}}{1 \text{ hr}} = 18 \text{ mg/hr}$$
     
+
 
 Concentration:
     \[\frac{400 \text{ mg}}{250 \text{ mL}} = 1.6 \text{ mg/mL}\]
@@ -389,6 +412,8 @@ Concentration:
     \[\frac{18 \text{ mg/hr}}{1.6 \text{ mg/mL}} = 11.25 \text{ mL/hr}\]
     
     Round to: **11 mL/hr**
+
+
 
 !!! example "Problem 25"
 
