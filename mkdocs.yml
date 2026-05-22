@@ -1,6 +1,7 @@
 site_name: Math Foundations for Nursing
 site_description: A free and open mathematics textbook for nursing students provided by Convergent Math.
 site_url: https://nursing.convergentmath.com
+
 theme:
   name: material
   font:
@@ -29,7 +30,14 @@ theme:
 
 
 nav:
-  - Home: index.md
+  - Start Here:
+    - Welcome: index.md
+    - What You Will Learn: start-here/what-you-will-learn.md
+    - How to Use This Book: start-here/how-to-use-this-book.md
+    - Writing Numbers Safely: start-here/notation-safety.md
+    - Recommendations: start-here/recommendations.md
+    - License: start-here/license.md
+  
   - M1 · Arithmetic:
     - Overview: module1/index.md
     - Whole Numbers: module1/whole-numbers.md
@@ -82,11 +90,15 @@ copyright: >
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
   Free for personal and non-commercial use.
 
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.snippets:
+      base_path: ['includes']  # adjust path to wherever you place snippet files
+      check_paths: true
   - tables
   - toc:
       permalink: true
@@ -96,4 +108,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/conversion-check.js  
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
