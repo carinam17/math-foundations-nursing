@@ -28,7 +28,6 @@ theme:
     - toc.integrate
     - content.code.copy
 
-
 nav:
   - Start Here:
     - Welcome: index.md
@@ -37,7 +36,8 @@ nav:
     - Writing Numbers Safely: start-here/notation-safety.md
     - Recommendations: start-here/recommendations.md
     - License: start-here/license.md
-  
+ 
+
   - M1 · Arithmetic:
     - Overview: module1/index.md
     - Whole Numbers: module1/whole-numbers.md
@@ -45,14 +45,19 @@ nav:
     - Decimals: module1/decimals.md
     - Rounding: module1/rounding.md
     - Percentages: module1/percentages.md
-  
-  - M2 · Units and Conversions:
+
+
+  - M2 · Conversions:
     - Overview: module2/index.md
-    - Metric System: module2/metric-system.md
+    - Measurement Systems: module2/measurement-systems.md   # NEW — create in module2/
+    - The Metric System: module2/metric-system.md
     - Household Measurements: module2/household-measurements.md
     - Converting Between Units: module2/conversions.md
     - Dimensional Analysis: module2/dimensional-analysis.md
-    
+    - Checking Your Setup: module2/unit-cancellation.md     # MOVE — git mv module3/ → module2/
+    - Conversion Factors to Know: module2/conversion-factor-check.md  # NEW — create in module2/
+
+
   - M3 · Ratio and Proportion:
     - Overview: module3/index.md
     - Ratios: module3/ratios.md

@@ -6,13 +6,13 @@ with the math that clinical practice asks of you. Use this material at your own 
 
 ## Start in this order
 
-1. **[How to Use This Book](docs/start-here/how-to-use-this-book.md)** — how each
+1. **[How to Use This Book](start-here/how-to-use-this-book.md)** — how each
    page and practice problem works.
-2. **[Writing Numbers Safely](docs/start-here/notation-safety.md)** — a short set
+2. **[What You Will Learn](start-here/what-you-will-learn.md)** — the full
+   course outline, module by module.
+3. **[Writing Numbers Safely](start-here/notation-safety.md)** — a short set
    of notation habits that prevent medication errors. Read this before any
    practice.
-3. **[What You Will Learn](docs/start-here/what-you-will-learn.md)** — the full
-   course outline, module by module.
 
 
 When you're ready, begin with **M1 · Arithmetic**.
