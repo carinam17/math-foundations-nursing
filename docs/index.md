@@ -1,7 +1,7 @@
 # Math Foundations for Nursing
 
 Welcome. This guide helps nursing students build confidence and accuracy
-with the math that clinical practice asks of you. Use this material at your own pace and return to it for review and reinforcement. 
+with the math skils used in clinical practice. Work through this material at your own pace and return to it for review and reinforcement. 
 
 
 ## Start in this order
@@ -17,5 +17,5 @@ with the math that clinical practice asks of you. Use this material at your own 
 
 When you're ready, begin with **M1 · Arithmetic**.
 
-Every skill here can be practiced and improved. Take it steadily.
+Every skill here can be practiced and improved.
 

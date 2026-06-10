@@ -58,7 +58,7 @@ Tubing: 20 gtt/mL
 What is the drip rate in gtt/min?
 
 Convert time to minutes:
-\[8 \text{ hr} \times 60 \text{ min/hr} = 480 \text{ min}\]
+\[8 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 480 \text{ min}\]
 
 Calculate drip rate:
 \[\frac{1000 \text{ mL}}{480 \text{ min}} \times 20 \text{ gtt/mL} = 41.7 \text{ gtt/min}\]
@@ -69,7 +69,7 @@ Round to: **42 gtt/min**
 Order: 500 mL over 4 hours
 Tubing: 15 gtt/mL
 
-\[4 \text{ hr} \times 60 = 240 \text{ min}\]
+\[4 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 240 \text{ min}\]
 
 \[\frac{500 \text{ mL}}{240 \text{ min}} \times 15 \text{ gtt/mL} = 31.25 \text{ gtt/min}\]
 
@@ -137,7 +137,7 @@ Tubing: 60 gtt/mL (microdrip)
 
 ??? success "Answer"
     Convert time:
-    \[10 \times 60 = 600 \text{ min}\]
+    \[10 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 600 \text{ min}\]
     
     Calculate:
     \[\frac{1000 \text{ mL}}{600 \text{ min}} \times 20 \text{ gtt/mL} = 33.3 \text{ gtt/min}\]
@@ -151,7 +151,7 @@ Tubing: 60 gtt/mL (microdrip)
 
 ??? success "Answer"
     Convert time:
-    \[6 \times 60 = 360 \text{ min}\]
+    \[6 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 360 \text{ min}\]
     
     Calculate:
     \[\frac{500 \text{ mL}}{360 \text{ min}} \times 15 \text{ gtt/mL} = 20.8 \text{ gtt/min}\]
@@ -164,7 +164,7 @@ Tubing: 60 gtt/mL (microdrip)
     What is the drip rate?
 
 ??? success "Answer"
-    \[\frac{80 \times 20}{60} = \frac{1600}{60} = 26.7 \text{ gtt/min}\]
+    \[\frac{80 \text{ mL/hr} \times 20 \text{ gtt/mL}}{60 \text{ min/hr}} = \frac{1600}{60} = 26.7 \text{ gtt/min}\]
     
     Round to: **27 gtt/min**
 
@@ -179,7 +179,7 @@ Tubing: 60 gtt/mL (microdrip)
     **30 gtt/min**
     
     Verify:
-    \[\frac{30 \times 60}{60} = 30 \text{ gtt/min} ✅\]
+    \[\frac{30 \text{ mL/hr} \times 60 \text{ gtt/mL}}{60 \text{ min/hr}} = 30 \text{ gtt/min} ✓\]
 
 !!! example "Problem 5"
     Order: 250 mL over 2 hours
@@ -188,7 +188,7 @@ Tubing: 60 gtt/mL (microdrip)
 
 ??? success "Answer"
     Convert time:
-    \[2 \times 60 = 120 \text{ min}\]
+    \[2 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 120 \text{ min}\]
     
     Calculate:
     \[\frac{250 \text{ mL}}{120 \text{ min}} \times 10 \text{ gtt/mL} = 20.8 \text{ gtt/min}\]
@@ -202,7 +202,7 @@ Tubing: 60 gtt/mL (microdrip)
 
 ??? success "Answer"
     Convert time:
-    \[12 \times 60 = 720 \text{ min}\]
+    \[12 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 720 \text{ min}\]
     
     Calculate:
     \[\frac{1000 \text{ mL}}{720 \text{ min}} \times 15 \text{ gtt/mL} = 20.8 \text{ gtt/min}\]
@@ -215,3 +215,47 @@ Tubing: 60 gtt/mL (microdrip)
     hourly volume checkpoints so you can verify 
     the infusion is running on schedule at a glance 
     without recalculating every time.
+
+---
+
+## Self-Check
+
+<div class="self-check" id="drip-self-check"></div>
+
+<script type="application/json" id="drip-self-check-data">
+[
+  {
+    "id": "drip-1",
+    "question": "Order: 500 mL over 4 hours. Tubing: 20 gtt/mL. What is the drip rate?",
+    "options": ["25 gtt/min", "42 gtt/min", "31 gtt/min", "35 gtt/min"],
+    "correct": 1,
+    "feedback": "4 hr × 60 = 240 min. (500 mL / 240 min) × 20 gtt/mL = 41.7 → 42 gtt/min."
+  },
+  {
+    "id": "drip-2",
+    "question": "An IV is running at 45 mL/hr using microdrip tubing (60 gtt/mL). What is the drip rate?",
+    "options": ["30 gtt/min", "45 gtt/min", "60 gtt/min", "75 gtt/min"],
+    "correct": 1,
+    "feedback": "With microdrip tubing, gtt/min always equals mL/hr. 45 mL/hr = 45 gtt/min."
+  },
+  {
+    "id": "drip-3",
+    "question": "Rate: 100 mL/hr. Tubing: 15 gtt/mL. What is the drip rate?",
+    "options": ["20 gtt/min", "25 gtt/min", "30 gtt/min", "35 gtt/min"],
+    "correct": 1,
+    "feedback": "(100 mL/hr × 15 gtt/mL) / 60 min/hr = 1500 / 60 = 25 gtt/min."
+  },
+  {
+    "id": "drip-4",
+    "question": "Why are gravity drip rates rechecked every 30–60 minutes?",
+    "options": [
+      "To recalculate the drop factor",
+      "Because rates can drift due to patient movement and vein pressure changes",
+      "To adjust the flow rate based on urine output",
+      "Because microdrip tubing clogs frequently"
+    ],
+    "correct": 1,
+    "feedback": "Gravity rates are affected by patient position, arm movement, IV bag height, and vein pressure. Unlike pumps, they are not self-correcting and must be monitored regularly."
+  }
+]
+</script>

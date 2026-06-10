@@ -2,12 +2,12 @@
 
 ## Overview
 
-This page contains the complete answers for both 
-Practice Set 1 and Practice Set 2 in a single 
+This page contains the complete answers for both
+Practice Set 1 and Practice Set 2 in a single
 reference list.
 
-Use this page to check your work after completing 
-a full set — not during. The learning comes from 
+Use this page to check your work after completing
+a full set — not during. The learning comes from
 attempting each problem independently first.
 
 ---
@@ -16,9 +16,9 @@ attempting each problem independently first.
 
 | # | Topic | Answer |
 |---|---|---|
-| 1 | Unit conversion | 2500 mg |
-| 2 | Unit conversion | 0.75 mg |
-| 3 | Unit conversion | 65 kg |
+| 1 | Unit conversion | 45 g |
+| 2 | Unit conversion | 2500 mg |
+| 3 | Unit conversion | 0.75 mg |
 | 4 | Oral tablet | 2 tablets |
 | 5 | Oral tablet | 1.5 tablets (scored only) |
 | 6 | Oral tablet | 3 tablets |
@@ -34,7 +34,7 @@ attempting each problem independently first.
 | 16 | Weight-based pediatric | 10 mL per dose |
 | 17 | IV flow rate | 125 mL/hr |
 | 18 | IV flow rate | 333 mL/hr |
-| 19 | IV flow rate | 550 mL remaining, 3 hr 40 min |
+| 19 | Infusion time | 550 mL remaining; 3 hr 40 min |
 | 20 | Drip rate | 42 gtt/min |
 | 21 | Drip rate | 60 gtt/min |
 | 22 | IV medication | 167 mL/hr |
@@ -63,16 +63,16 @@ attempting each problem independently first.
 | 13 | 4500 mL |
 | 14 | 23 mL/hr |
 | 15 | 20 mL (max dose applied) |
-| 16 | 250 mL remaining, completes 1330 |
-| 17 | 2000 mg total dose, 27 mL/hr |
+| 16 | 250 mL remaining; completes 1330 |
+| 17 | 2000 mg total dose; 27 mL/hr |
 | 18 | 13.2 mL per dose |
 | 19 | 21 gtt/min |
 | 20 | 2000 units/hr |
 | 21 | 14 mL per dose |
 | 22 | 20 mL/hr |
-| 23 | 125 mL/hr, at 25% limit — consult prescriber |
-| 24 | 30 mL, 0.03 L |
-| 25 | Safe, 3.6 mL per dose |
+| 23 | 125 mL/hr; at 25% limit — consult prescriber |
+| 24 | 30 mL; 0.03 L |
+| 25 | Safe; 3.6 mL per dose |
 
 ---
 

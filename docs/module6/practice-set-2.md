@@ -1,4 +1,4 @@
-# Practice Set 2 - Wrap-Up Challenge
+# Practice Set 2 — Wrap-Up Challenge
 
 ## Instructions
 
@@ -11,9 +11,9 @@ This set simulates a real clinical competency exam.
 - Aim for **90% or higher** (23 out of 25 correct)
 
 !!! danger "Challenge Yourself"
-    Do not reveal answers until you have committed 
-    to your solution in writing. The goal is to 
-    identify gaps before clinical practice — 
+    Do not reveal answers until you have committed
+    to your solution in writing. The goal is to
+    identify gaps before clinical practice —
     not after.
 
 ---
@@ -24,9 +24,9 @@ This set simulates a real clinical competency exam.
     How many tablets?
 
 ??? success "Answer"
-    \[\frac{12.5 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ tablet}}{25 \cancel{\text{ mg}}} = 0.5 \text{ tablet}\]
-    
-    Verify tablet is scored before splitting.
+    \[12.5 \cancel{\text{ mg}} \times \frac{1 \text{ tablet}}{25 \cancel{\text{ mg}}} = 0.5 \text{ tablet}\]
+
+    Verify the tablet is scored before splitting.
 
 ---
 
@@ -48,10 +48,10 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Convert weight:
     \[198 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 90 \text{ kg}\]
-    
+
     Full chain:
-    \[\frac{90 \cancel{\text{ kg}}}{1} \times \frac{2.5 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = 5.625 \text{ mL}\]
-    
+    \[90 \cancel{\text{ kg}} \times \frac{2.5 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = 5.625 \text{ mL}\]
+
     Round to: **5.6 mL**
 
 ---
@@ -70,7 +70,7 @@ This set simulates a real clinical competency exam.
     How many mL?
 
 ??? success "Answer"
-    \[\frac{0.5 \cancel{\text{ g}}}{1} \times \frac{1000 \cancel{\text{ mg}}}{1 \cancel{\text{ g}}} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = 10 \text{ mL}\]
+    \[0.5 \cancel{\text{ g}} \times \frac{1000 \cancel{\text{ mg}}}{1 \cancel{\text{ g}}} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = 10 \text{ mL}\]
 
 ---
 
@@ -81,21 +81,20 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Convert time:
     \[35 \cancel{\text{ min}} \times \frac{1 \text{ hr}}{60 \cancel{\text{ min}}} = 0.583 \text{ hr}\]
-    
+
     Rate:
     \[\frac{500 \text{ mL}}{0.583 \text{ hr}} = 857.6 \text{ mL/hr}\]
-    
+
     Round to: **858 mL/hr**
-    
+
     !!! warning "Verify This Rate"
-        Rates above 500 mL/hr are unusual. Verify 
+        Rates above 500 mL/hr are unusual. Verify
         the order before programming the pump.
 
 ---
 
 !!! example "Problem 7"
-    Order: amoxicillin 30 mg/kg/day orally
-    divided every 8 hours
+    Order: amoxicillin 30 mg/kg/day orally divided every 8 hours
     Patient: child weighing 16 kg
     Stock: 200 mg/5 mL
     How many mL per dose?
@@ -103,12 +102,12 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Total daily dose:
     \[16 \cancel{\text{ kg}} \times \frac{30 \text{ mg}}{1 \cancel{\text{ kg}}} = 480 \text{ mg/day}\]
-    
-    Single dose (3 doses/day):
-    \[480 \div 3 = 160 \text{ mg per dose}\]
-    
+
+    Single dose (every 8 hours = 3 doses/day):
+    \[480 \text{ mg/day} \times \frac{1 \text{ day}}{3 \text{ doses}} = 160 \text{ mg/dose}\]
+
     Volume:
-    \[\frac{160 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{200 \cancel{\text{ mg}}} = 4 \text{ mL}\]
+    \[160 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{200 \cancel{\text{ mg}}} = 4 \text{ mL}\]
 
 ---
 
@@ -120,9 +119,9 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Concentration:
     \[\frac{25{,}000 \text{ units}}{250 \text{ mL}} = 100 \text{ units/mL}\]
-    
+
     Flow rate:
-    \[\frac{1800 \text{ units/hr}}{100 \text{ units/mL}} = 18 \text{ mL/hr}\]
+    \[1800 \cancel{\text{ units/hr}} \times \frac{1 \text{ mL}}{100 \cancel{\text{ units}}} = 18 \text{ mL/hr}\]
 
 ---
 
@@ -133,13 +132,13 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Infusion time:
     \[\frac{1000 \text{ mL}}{80 \text{ mL/hr}} = 12.5 \text{ hr}\]
-    
+
     Convert decimal:
-    \[0.5 \times 60 = 30 \text{ min}\]
-    
+    \[0.5 \text{ hr} \times 60 = 30 \text{ min}\]
+
     Completion time:
     \[2130 + 12 \text{ hr } 30 \text{ min} = 1000 \text{ next day}\]
-    
+
     Completes at **1000 the following morning.**
 
 ---
@@ -150,7 +149,7 @@ This set simulates a real clinical competency exam.
     How many tablets?
 
 ??? success "Answer"
-    \[\frac{0.125 \cancel{\text{ mg}}}{1} \times \frac{1000 \cancel{\text{ mcg}}}{1 \cancel{\text{ mg}}} \times \frac{1 \text{ tablet}}{62.5 \cancel{\text{ mcg}}} = 2 \text{ tablets}\]
+    \[0.125 \cancel{\text{ mg}} \times \frac{1000 \cancel{\text{ mcg}}}{1 \cancel{\text{ mg}}} \times \frac{1 \text{ tablet}}{62.5 \cancel{\text{ mcg}}} = 2 \text{ tablets}\]
 
 ---
 
@@ -161,11 +160,11 @@ This set simulates a real clinical competency exam.
 
 ??? success "Answer"
     Convert time:
-    \[12 \times 60 = 720 \text{ min}\]
-    
+    \[12 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 720 \text{ min}\]
+
     Calculate:
     \[\frac{1000 \text{ mL}}{720 \text{ min}} \times 15 \text{ gtt/mL} = 20.8 \text{ gtt/min}\]
-    
+
     Round to: **21 gtt/min**
 
 ---
@@ -174,15 +173,14 @@ This set simulates a real clinical competency exam.
     Order: morphine 0.08 mg/kg IV PRN
     Patient weight: 187 lb
     Stock: 5 mg/mL
-    How many mL?
-    Round to nearest hundredth.
+    How many mL? Round to nearest hundredth.
 
 ??? success "Answer"
     Convert weight:
     \[187 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 85 \text{ kg}\]
-    
+
     Full chain:
-    \[\frac{85 \cancel{\text{ kg}}}{1} \times \frac{0.08 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{5 \cancel{\text{ mg}}} = 1.36 \text{ mL}\]
+    \[85 \cancel{\text{ kg}} \times \frac{0.08 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{5 \cancel{\text{ mg}}} = 1.36 \text{ mL}\]
 
 ---
 
@@ -203,16 +201,16 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Dose per minute:
     \[75 \cancel{\text{ kg}} \times \frac{8 \text{ mcg}}{1 \cancel{\text{ kg}} \cdot \text{min}} = 600 \text{ mcg/min}\]
-    
+
     Convert to mg/hr:
     \[600 \cancel{\text{ mcg/min}} \times \frac{1 \cancel{\text{ mg}}}{1000 \cancel{\text{ mcg}}} \times \frac{60 \text{ min}}{1 \text{ hr}} = 36 \text{ mg/hr}\]
-    
+
     Concentration:
     \[\frac{800 \text{ mg}}{500 \text{ mL}} = 1.6 \text{ mg/mL}\]
-    
+
     Flow rate:
-    \[\frac{36 \text{ mg/hr}}{1.6 \text{ mg/mL}} = 22.5 \text{ mL/hr}\]
-    
+    \[36 \cancel{\text{ mg/hr}} \times \frac{1 \text{ mL}}{1.6 \cancel{\text{ mg}}} = 22.5 \text{ mL/hr}\]
+
     Round to: **23 mL/hr**
 
 ---
@@ -226,35 +224,35 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Calculated dose:
     \[48 \cancel{\text{ kg}} \times \frac{10 \text{ mg}}{1 \cancel{\text{ kg}}} = 480 \text{ mg}\]
-    
+
     480 mg exceeds max of 400 mg — **use 400 mg**
-    
+
     Volume:
-    \[\frac{400 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{100 \cancel{\text{ mg}}} = 20 \text{ mL}\]
+    \[400 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{100 \cancel{\text{ mg}}} = 20 \text{ mL}\]
 
 ---
 
 !!! example "Problem 16"
     A 750 mL bag started at 0730 running at 125 mL/hr.
-    It is now 1130. How much fluid remains and 
-    what time will the infusion complete?
+    It is now 1130. How much fluid remains and what time
+    will the infusion complete?
 
 ??? success "Answer"
     Time elapsed:
     \[1130 - 0730 = 4 \text{ hr}\]
-    
+
     Volume infused:
     \[125 \text{ mL/hr} \times 4 \text{ hr} = 500 \text{ mL}\]
-    
+
     Volume remaining:
     \[750 - 500 = 250 \text{ mL}\]
-    
+
     Time remaining:
     \[\frac{250 \text{ mL}}{125 \text{ mL/hr}} = 2 \text{ hr}\]
-    
+
     Completion time:
     \[1130 + 2 \text{ hr} = 1330\]
-    
+
     Completes at **1330 (1:30 PM).**
 
 ---
@@ -268,26 +266,25 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Convert weight:
     \[220 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 100 \text{ kg}\]
-    
+
     Total dose:
     \[100 \cancel{\text{ kg}} \times \frac{20 \text{ mg}}{1 \cancel{\text{ kg}}} = 2000 \text{ mg}\]
-    
+
     Volume to infuse:
-    \[\frac{2000 \cancel{\text{ mg}}}{1} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 40 \text{ mL}\]
-    
+    \[2000 \cancel{\text{ mg}} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 40 \text{ mL}\]
+
     Convert time:
     \[90 \cancel{\text{ min}} \times \frac{1 \text{ hr}}{60 \cancel{\text{ min}}} = 1.5 \text{ hr}\]
-    
+
     Flow rate:
     \[\frac{40 \text{ mL}}{1.5 \text{ hr}} = 26.7 \text{ mL/hr}\]
-    
+
     Round to: **27 mL/hr**
 
 ---
 
 !!! example "Problem 18"
-    Order: gentamicin 6 mg/kg/day IV
-    divided every 8 hours
+    Order: gentamicin 6 mg/kg/day IV divided every 8 hours
     Patient weight: 66 kg
     Stock: 10 mg/mL
     How many mL per dose?
@@ -295,12 +292,12 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Total daily dose:
     \[66 \cancel{\text{ kg}} \times \frac{6 \text{ mg}}{1 \cancel{\text{ kg}}} = 396 \text{ mg/day}\]
-    
-    Single dose (3 doses/day):
-    \[396 \div 3 = 132 \text{ mg per dose}\]
-    
+
+    Single dose (every 8 hours = 3 doses/day):
+    \[396 \text{ mg/day} \times \frac{1 \text{ day}}{3 \text{ doses}} = 132 \text{ mg/dose}\]
+
     Volume:
-    \[\frac{132 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 13.2 \text{ mL}\]
+    \[132 \cancel{\text{ mg}} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 13.2 \text{ mL}\]
 
 ---
 
@@ -311,11 +308,11 @@ This set simulates a real clinical competency exam.
 
 ??? success "Answer"
     Convert time:
-    \[4 \times 60 = 240 \text{ min}\]
-    
+    \[4 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 240 \text{ min}\]
+
     Calculate:
     \[\frac{500 \text{ mL}}{240 \text{ min}} \times 10 \text{ gtt/mL} = 20.8 \text{ gtt/min}\]
-    
+
     Round to: **21 gtt/min**
 
 ---
@@ -328,15 +325,14 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Concentration:
     \[\frac{25{,}000 \text{ units}}{500 \text{ mL}} = 50 \text{ units/mL}\]
-    
+
     Dose rate:
     \[40 \text{ mL/hr} \times 50 \text{ units/mL} = 2000 \text{ units/hr}\]
 
 ---
 
 !!! example "Problem 21"
-    Order: prednisolone 2 mg/kg/day orally
-    divided every 12 hours
+    Order: prednisolone 2 mg/kg/day orally divided every 12 hours
     Patient: child weighing 14 kg
     Stock: 5 mg/5 mL solution
     How many mL per dose?
@@ -344,12 +340,12 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Total daily dose:
     \[14 \cancel{\text{ kg}} \times \frac{2 \text{ mg}}{1 \cancel{\text{ kg}}} = 28 \text{ mg/day}\]
-    
-    Single dose (2 doses/day):
-    \[28 \div 2 = 14 \text{ mg per dose}\]
-    
+
+    Single dose (every 12 hours = 2 doses/day):
+    \[28 \text{ mg/day} \times \frac{1 \text{ day}}{2 \text{ doses}} = 14 \text{ mg/dose}\]
+
     Volume:
-    \[\frac{14 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{5 \cancel{\text{ mg}}} = 14 \text{ mL}\]
+    \[14 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{5 \cancel{\text{ mg}}} = 14 \text{ mL}\]
 
 ---
 
@@ -361,31 +357,37 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     Concentration:
     \[\frac{100 \text{ mg}}{500 \text{ mL}} = 0.2 \text{ mg/mL}\]
-    
+
     Flow rate:
-    \[\frac{4 \text{ mg/hr}}{0.2 \text{ mg/mL}} = 20 \text{ mL/hr}\]
+    \[4 \cancel{\text{ mg/hr}} \times \frac{1 \text{ mL}}{0.2 \cancel{\text{ mg}}} = 20 \text{ mL/hr}\]
 
 ---
 
 !!! example "Problem 23"
-    Order: 1000 mL over 10 hours
-    After 6 hours only 500 mL has infused.
-    500 mL remains with 4 hours left.
+    Order: 1000 mL over 10 hours. After 6 hours only 500 mL has
+    infused. 500 mL remains with 4 hours left on the order.
     What rate is needed to complete on time?
     Is this within the 25% adjustment guideline?
 
 ??? success "Answer"
     Required rate:
     \[\frac{500 \text{ mL}}{4 \text{ hr}} = 125 \text{ mL/hr}\]
-    
+
     Original rate:
     \[\frac{1000 \text{ mL}}{10 \text{ hr}} = 100 \text{ mL/hr}\]
-    
+
     Percentage increase:
     \[\frac{125 - 100}{100} \times 100 = 25\%\]
-    
+
     Exactly 25% — at the limit of the guideline.
     **Consult the prescriber before adjusting.**
+
+    !!! info "25% adjustment guideline"
+        Many facilities use a policy that IV rates should
+        not be increased by more than 25% without prescriber
+        notification. This is a clinical practice standard,
+        not a universal rule — always follow your
+        facility's specific policy.
 
 ---
 
@@ -395,14 +397,14 @@ This set simulates a real clinical competency exam.
 ??? success "Answer"
     tbsp to mL:
     \[2 \cancel{\text{ tbsp}} \times \frac{15 \text{ mL}}{1 \cancel{\text{ tbsp}}} = 30 \text{ mL}\]
-    
+
     mL to L:
     \[30 \cancel{\text{ mL}} \times \frac{1 \text{ L}}{1000 \cancel{\text{ mL}}} = 0.03 \text{ L}\]
 
 ---
 
 !!! example "Problem 25"
-    Safe dose range: 15-30 mg/kg/day
+    Safe dose range: 15–30 mg/kg/day
     Order: amoxicillin 20 mg/kg/day divided every 8 hours
     Patient: child weighing 27 kg
     Stock: 250 mg/5 mL
@@ -410,31 +412,31 @@ This set simulates a real clinical competency exam.
 
 ??? success "Answer"
     Minimum safe dose:
-    \[27 \text{ kg} \times 15 \text{ mg/kg} = 405 \text{ mg/day}\]
-    
+    \[27 \cancel{\text{ kg}} \times \frac{15 \text{ mg}}{1 \cancel{\text{ kg}}} = 405 \text{ mg/day}\]
+
     Maximum safe dose:
-    \[27 \text{ kg} \times 30 \text{ mg/kg} = 810 \text{ mg/day}\]
-    
+    \[27 \cancel{\text{ kg}} \times \frac{30 \text{ mg}}{1 \cancel{\text{ kg}}} = 810 \text{ mg/day}\]
+
     Ordered dose:
-    \[27 \text{ kg} \times 20 \text{ mg/kg} = 540 \text{ mg/day}\]
-    
-    540 mg/day is between 405 and 810 mg/day ✅
+    \[27 \cancel{\text{ kg}} \times \frac{20 \text{ mg}}{1 \cancel{\text{ kg}}} = 540 \text{ mg/day}\]
+
+    540 mg/day falls between 405 and 810 mg/day ✓
     **Dose is safe.**
-    
-    Single dose (3 doses/day):
-    \[540 \div 3 = 180 \text{ mg per dose}\]
-    
+
+    Single dose (every 8 hours = 3 doses/day):
+    \[540 \text{ mg/day} \times \frac{1 \text{ day}}{3 \text{ doses}} = 180 \text{ mg/dose}\]
+
     Volume:
-    \[\frac{180 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = 3.6 \text{ mL}\]
+    \[180 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = 3.6 \text{ mL}\]
 
 ---
 
 !!! tip "How Did You Do?"
-    - **23-25 correct** — excellent, you are ready for clinical practice
-    - **20-22 correct** — good, review the topics you missed and retry
+    - **23–25 correct** — excellent, you are ready for clinical practice
+    - **20–22 correct** — good, review the topics you missed and retry
     - **Below 20** — return to the relevant modules for review
-    
+
     !!! warning "Remember"
-        Clinical competency requires 90% or higher — 
-        23 out of 25 correct. If you are not there yet, 
+        Clinical competency requires 90% or higher —
+        23 out of 25 correct. If you are not there yet,
         that is what review is for. Keep practicing.

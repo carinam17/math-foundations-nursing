@@ -35,7 +35,7 @@ Order: vancomycin 1000 mg in 250 mL over 90 minutes
 What is the flow rate in mL/hr?
 
 Convert time to hours:
-\[90 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 1.5 \text{ hr}\]
+\[90 \cancel{\text{ min}} \times \frac{1 \text{ hr}}{60 \cancel{\text{ min}}} = 1.5 \text{ hr}\]
 
 Calculate rate:
 \[\frac{250 \text{ mL}}{1.5 \text{ hr}} = 166.7 \text{ mL/hr}\]
@@ -46,7 +46,7 @@ Round to: **167 mL/hr**
 Order: metronidazole 500 mg in 100 mL over 30 minutes
 What is the flow rate in mL/hr?
 
-\[30 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 0.5 \text{ hr}\]
+\[30 \cancel{\text{ min}} \times \frac{1 \text{ hr}}{60 \cancel{\text{ min}}} = 0.5 \text{ hr}\]
 
 \[\frac{100 \text{ mL}}{0.5 \text{ hr}} = 200 \text{ mL/hr}\]
 
@@ -63,7 +63,7 @@ Step 1 — find concentration:
 \[\frac{25{,}000 \text{ units}}{500 \text{ mL}} = 50 \text{ units/mL}\]
 
 Step 2 — calculate flow rate:
-\[\frac{1200 \text{ units/hr}}{50 \text{ units/mL}} = 24 \text{ mL/hr}\]
+\[1200 \cancel{\text{ units/hr}} \times \frac{1 \text{ mL}}{50 \cancel{\text{ units}}} = 24 \text{ mL/hr}\]
 
 **Example 4:**
 Order: morphine 2 mg/hr IV continuous
@@ -73,7 +73,7 @@ Step 1 — concentration:
 \[\frac{50 \text{ mg}}{250 \text{ mL}} = 0.2 \text{ mg/mL}\]
 
 Step 2 — flow rate:
-\[\frac{2 \text{ mg/hr}}{0.2 \text{ mg/mL}} = 10 \text{ mL/hr}\]
+\[2 \cancel{\text{ mg/hr}} \times \frac{1 \text{ mL}}{0.2 \cancel{\text{ mg}}} = 10 \text{ mL/hr}\]
 
 ## Weight-Based Continuous Infusions
 
@@ -95,7 +95,7 @@ Step 3 — find concentration:
 \[\frac{400 \text{ mg}}{250 \text{ mL}} = 1.6 \text{ mg/mL}\]
 
 Step 4 — calculate flow rate:
-\[\frac{21 \text{ mg/hr}}{1.6 \text{ mg/mL}} = 13.125 \text{ mL/hr}\]
+\[21 \cancel{\text{ mg/hr}} \times \frac{1 \text{ mL}}{1.6 \cancel{\text{ mg}}} = 13.125 \text{ mL/hr}\]
 
 Round to: **13 mL/hr**
 
@@ -140,7 +140,7 @@ Step 2 — dose rate:
     What is the flow rate in mL/hr?
 
 ??? success "Answer"
-    \[30 \text{ min} = 0.5 \text{ hr}\]
+    \[30 \cancel{\text{ min}} \times \frac{1 \text{ hr}}{60 \cancel{\text{ min}}} = 0.5 \text{ hr}\]
     
     \[\frac{100 \text{ mL}}{0.5 \text{ hr}} = 200 \text{ mL/hr}\]
 
@@ -154,7 +154,7 @@ Step 2 — dose rate:
     \[\frac{25{,}000 \text{ units}}{500 \text{ mL}} = 50 \text{ units/mL}\]
     
     Flow rate:
-    \[\frac{1500 \text{ units/hr}}{50 \text{ units/mL}} = 30 \text{ mL/hr}\]
+    \[1500 \cancel{\text{ units/hr}} \times \frac{1 \text{ mL}}{50 \cancel{\text{ units}}} = 30 \text{ mL/hr}\]
 
 !!! example "Problem 3"
     Order: morphine 3 mg/hr IV continuous
@@ -166,7 +166,7 @@ Step 2 — dose rate:
     \[\frac{50 \text{ mg}}{500 \text{ mL}} = 0.1 \text{ mg/mL}\]
     
     Flow rate:
-    \[\frac{3 \text{ mg/hr}}{0.1 \text{ mg/mL}} = 30 \text{ mL/hr}\]
+    \[3 \cancel{\text{ mg/hr}} \times \frac{1 \text{ mL}}{0.1 \cancel{\text{ mg}}} = 30 \text{ mL/hr}\]
 
 !!! example "Problem 4"
     Order: vancomycin 1500 mg in 500 mL over 3 hours
@@ -194,7 +194,7 @@ Step 2 — dose rate:
     \[\frac{400 \text{ mg}}{250 \text{ mL}} = 1.6 \text{ mg/mL}\]
     
     Step 4 — flow rate:
-    \[\frac{14.4 \text{ mg/hr}}{1.6 \text{ mg/mL}} = 9 \text{ mL/hr}\]
+    \[14.4 \cancel{\text{ mg/hr}} \times \frac{1 \text{ mL}}{1.6 \cancel{\text{ mg}}} = 9 \text{ mL/hr}\]
 
 !!! example "Problem 6"
     An IV is running at 20 mL/hr.
@@ -220,3 +220,47 @@ Step 2 — dose rate:
     
     These three checks take less than 60 seconds 
     and prevent the most common IV medication errors.
+
+---
+
+## Self-Check
+
+<div class="self-check" id="ivmed-self-check"></div>
+
+<script type="application/json" id="ivmed-self-check-data">
+[
+  {
+    "id": "ivmed-1",
+    "question": "Order: cefazolin 1000 mg in 100 mL over 30 minutes. What is the flow rate?",
+    "options": ["100 mL/hr", "150 mL/hr", "200 mL/hr", "250 mL/hr"],
+    "correct": 2,
+    "feedback": "30 min × (1 hr / 60 min) = 0.5 hr. 100 mL / 0.5 hr = 200 mL/hr."
+  },
+  {
+    "id": "ivmed-2",
+    "question": "Stock: 500 mg drug in 250 mL. The pump is running at 25 mL/hr. What dose is the patient receiving per hour?",
+    "options": ["25 mg/hr", "50 mg/hr", "75 mg/hr", "100 mg/hr"],
+    "correct": 1,
+    "feedback": "Concentration: 500 mg / 250 mL = 2 mg/mL. Dose rate: 25 mL/hr × 2 mg/mL = 50 mg/hr."
+  },
+  {
+    "id": "ivmed-3",
+    "question": "Order: heparin 800 units/hr. Stock: 25,000 units in 500 mL. What is the flow rate?",
+    "options": ["12 mL/hr", "16 mL/hr", "20 mL/hr", "24 mL/hr"],
+    "correct": 1,
+    "feedback": "Concentration: 25,000 / 500 = 50 units/mL. Flow rate: 800 units/hr ÷ 50 units/mL = 16 mL/hr."
+  },
+  {
+    "id": "ivmed-4",
+    "question": "Why does the dopamine calculation require converting mcg/min to mg/hr before finding the pump rate?",
+    "options": [
+      "Pumps cannot display mcg/min",
+      "The stock concentration is in mg/mL, so units must match before dividing",
+      "mcg and mg are the same unit",
+      "The patient weight must be removed from the equation first"
+    ],
+    "correct": 1,
+    "feedback": "The bag concentration is mg/mL. To divide dose by concentration and get mL/hr, the dose must also be in mg/hr. Unit matching is the reason for the conversion step."
+  }
+]
+</script>
