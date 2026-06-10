@@ -1548,28 +1548,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-two-step-process" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        The Two-Step Process
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#getting-the-weight-right" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1640,6 +1618,17 @@
     <span class="md-ellipsis">
       
         Practice Problems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-Check
       
     </span>
   </a>
@@ -2165,104 +2154,98 @@
 
 
 <h1 id="weight-based-dosing">Weight-Based Dosing<a class="headerlink" href="#weight-based-dosing" title="Permanent link">&para;</a></h1>
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>Many medications are ordered based on the patient's body 
-weight. This ensures the dose is proportional to the 
-patient's size, minimizing the risk of under or overdosing.</p>
-<p>Weight-based orders are expressed as:</p>
-<div class="arithmatex">\[\text{dose per kg} \rightarrow \text{mg/kg}\]</div>
-<h2 id="the-two-step-process">The Two-Step Process<a class="headerlink" href="#the-two-step-process" title="Permanent link">&para;</a></h2>
-<p>Weight-based calculations always require two steps:</p>
-<ol>
-<li><strong>Calculate the dose</strong> — multiply weight in kg by the 
-   ordered dose per kg</li>
-<li><strong>Calculate the volume</strong> — use the dose from step 1 
-   to find how much to administer</li>
-</ol>
-<p>These can be done separately or as a single unit 
-cancellation chain.</p>
+<p>Many medications are ordered based on the patient's body weight.
+This ensures the dose is proportional to the patient's size,
+minimizing the risk of under- or overdosing.</p>
+<p>Weight-based orders are expressed as a dose per kilogram:</p>
+<div class="arithmatex">\[\text{mg/kg} \quad \text{or} \quad \text{mg/kg/day}\]</div>
+<hr />
 <h2 id="getting-the-weight-right">Getting the Weight Right<a class="headerlink" href="#getting-the-weight-right" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
-<p class="admonition-title">Always Weigh in kg</p>
+<p class="admonition-title">Always use weight in kg</p>
 <p>Clinical doses are calculated using weight in <strong>kg</strong>.
 If the patient's weight is recorded in lb, convert first:</p>
-<div class="arithmatex">\[\text{kg} = \text{lb} \div 2.2\]</div>
-<p>Never estimate weight for drug calculations — 
+<div class="arithmatex">\[\text{lb} \times \frac{1 \text{ kg}}{2.2 \text{ lb}} = \text{kg}\]</div>
+<p>Never estimate weight for drug calculations —
 always use a measured, documented weight.</p>
 </div>
 <div class="admonition danger">
-<p class="admonition-title">Pediatric Weight Verification</p>
-<p>For pediatric patients, always verify the weight 
-independently before calculating. A weight error 
+<p class="admonition-title">Pediatric weight verification</p>
+<p>For pediatric patients, always verify the weight
+independently before calculating. A weight error
 in a child can result in a significant overdose.</p>
 </div>
+<hr />
 <h2 id="two-step-method">Two-Step Method<a class="headerlink" href="#two-step-method" title="Permanent link">&para;</a></h2>
+<p>Weight-based calculations always have two steps:</p>
+<ol>
+<li><strong>Calculate the dose</strong> — multiply weight in kg by the ordered dose per kg</li>
+<li><strong>Calculate the volume</strong> — use the dose from step 1 and the stock ratio</li>
+</ol>
 <p><strong>Example 1:</strong>
 Order: gentamicin 5 mg/kg IV
 Patient weight: 70 kg
 Stock: 40 mg/mL</p>
-<p>Step 1 — calculate dose:
+<p>Step 1 — dose:
 [70 \cancel{\text{ kg}} \times \frac{5 \text{ mg}}{1 \cancel{\text{ kg}}} = 350 \text{ mg}]</p>
-<p>Step 2 — calculate volume:
-[\frac{350 \cancel{\text{ mg}}}{1} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = 8.75 \text{ mL}]</p>
+<p>Step 2 — volume:
+[350 \cancel{\text{ mg}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = 8.75 \text{ mL}]</p>
 <p>Round to nearest tenth: <strong>8.8 mL</strong></p>
+<hr />
 <h2 id="single-chain-method">Single Chain Method<a class="headerlink" href="#single-chain-method" title="Permanent link">&para;</a></h2>
-<p>The same problem as one unit cancellation chain:</p>
-<div class="arithmatex">\[\frac{70 \cancel{\text{ kg}}}{1} \times \frac{5 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = \frac{350}{40} \text{ mL} = 8.75 \text{ mL}\]</div>
+<p>The same problem as one cancellation chain:</p>
+<div class="arithmatex">\[70 \cancel{\text{ kg}} \times \frac{5 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = \frac{350}{40} = 8.75 \text{ mL}\]</div>
 <p>Round to nearest tenth: <strong>8.8 mL</strong></p>
+<hr />
 <h2 id="weight-conversion-required">Weight Conversion Required<a class="headerlink" href="#weight-conversion-required" title="Permanent link">&para;</a></h2>
 <p><strong>Example 2:</strong>
 Order: vancomycin 15 mg/kg IV
 Patient weight: 154 lb
 Stock: 500 mg/10 mL</p>
-<p>Step 1 — convert weight:
-[154 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 70 \text{ kg}]</p>
-<p>Step 2 — calculate dose:
-[70 \cancel{\text{ kg}} \times \frac{15 \text{ mg}}{1 \cancel{\text{ kg}}} = 1050 \text{ mg}]</p>
-<p>Step 3 — calculate volume:
-[\frac{1050 \cancel{\text{ mg}}}{1} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 21 \text{ mL}]</p>
-<p>Or as one chain:
-[\frac{154 \cancel{\text{ lb}}}{1} \times \frac{1 \cancel{\text{ kg}}}{2.2 \cancel{\text{ lb}}} \times \frac{15 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 21 \text{ mL}]</p>
+<p>As a single chain:</p>
+<div class="arithmatex">\[154 \cancel{\text{ lb}} \times \frac{1 \cancel{\text{ kg}}}{2.2 \cancel{\text{ lb}}} \times \frac{15 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 21 \text{ mL}\]</div>
+<hr />
 <h2 id="maximum-dose-checks">Maximum Dose Checks<a class="headerlink" href="#maximum-dose-checks" title="Permanent link">&para;</a></h2>
-<p>Some weight-based medications have a <strong>maximum dose</strong> — 
-the dose should not exceed this regardless of weight.</p>
+<p>Some weight-based medications have a maximum dose — the
+calculated dose should not exceed it regardless of weight.</p>
 <div class="admonition info">
-<p class="admonition-title">Maximum Dose</p>
-<p>When a maximum dose applies:</p>
+<p class="admonition-title">When a maximum applies</p>
 <ol>
 <li>Calculate the weight-based dose normally</li>
 <li>Compare to the maximum dose</li>
 <li>Administer the <strong>lower</strong> of the two values</li>
 </ol>
-<p><strong>Example:</strong>
+</div>
+<p><strong>Example 3:</strong>
 Order: ibuprofen 10 mg/kg orally, max 400 mg
 Patient weight: 55 kg</p>
 <p>Calculated dose:
 [55 \cancel{\text{ kg}} \times \frac{10 \text{ mg}}{1 \cancel{\text{ kg}}} = 550 \text{ mg}]</p>
-<p>550 mg exceeds the maximum of 400 mg.
-<strong>Administer 400 mg.</strong></p>
-</div>
+<p>550 mg exceeds the maximum of 400 mg. <strong>Administer 400 mg.</strong></p>
+<hr />
 <h2 id="daily-dose-vs-single-dose">Daily Dose vs Single Dose<a class="headerlink" href="#daily-dose-vs-single-dose" title="Permanent link">&para;</a></h2>
 <div class="admonition warning">
-<p class="admonition-title">Read the Order Carefully</p>
+<p class="admonition-title">Read the order carefully</p>
 <p>Weight-based orders may specify:</p>
 <ul>
 <li><strong>Per dose</strong> — e.g. 5 mg/kg per dose every 8 hours</li>
 <li><strong>Per day</strong> — e.g. 15 mg/kg/day divided every 8 hours</li>
 </ul>
-<p>For a daily dose divided into multiple doses:
-[\text{single dose} = \frac{\text{total daily dose}}{\text{number of doses per day}}]</p>
+<p>For a daily dose divided into multiple doses, divide the
+total daily dose by the number of doses per day to get
+the single dose.</p>
 </div>
-<p><strong>Example:</strong>
+<p><strong>Example 4:</strong>
 Order: amoxicillin 40 mg/kg/day orally divided every 8 hours
 Patient weight: 20 kg
 Stock: 250 mg/5 mL</p>
 <p>Step 1 — total daily dose:
 [20 \cancel{\text{ kg}} \times \frac{40 \text{ mg}}{1 \cancel{\text{ kg}}} = 800 \text{ mg/day}]</p>
 <p>Step 2 — single dose (every 8 hours = 3 doses/day):
-[800 \text{ mg} \div 3 = 266.7 \text{ mg per dose}]</p>
+[800 \text{ mg/day} \times \frac{1 \text{ day}}{3 \text{ doses}} = 266.7 \text{ mg/dose}]</p>
 <p>Step 3 — volume per dose:
-[\frac{266.7 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = 5.3 \text{ mL}]</p>
+[266.7 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = 5.3 \text{ mL}]</p>
+<hr />
 <h2 id="practice-problems">Practice Problems<a class="headerlink" href="#practice-problems" title="Permanent link">&para;</a></h2>
 <div class="admonition example">
 <p class="admonition-title">Problem 1</p>
@@ -2273,7 +2256,7 @@ How many mL?</p>
 </div>
 <details class="success">
 <summary>Answer</summary>
-<div class="arithmatex">\[\frac{80 \cancel{\text{ kg}}}{1} \times \frac{2 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 16 \text{ mL}\]</div>
+<div class="arithmatex">\[80 \cancel{\text{ kg}} \times \frac{2 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 16 \text{ mL}\]</div>
 </details>
 <div class="admonition example">
 <p class="admonition-title">Problem 2</p>
@@ -2284,10 +2267,7 @@ How many mL?</p>
 </div>
 <details class="success">
 <summary>Answer</summary>
-<p>Step 1 — convert weight:
-[176 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 80 \text{ kg}]</p>
-<p>Step 2 — full chain:
-[\frac{80 \cancel{\text{ kg}}}{1} \times \frac{4 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = 8 \text{ mL}]</p>
+<div class="arithmatex">\[176 \cancel{\text{ lb}} \times \frac{1 \cancel{\text{ kg}}}{2.2 \cancel{\text{ lb}}} \times \frac{4 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = 8 \text{ mL}\]</div>
 </details>
 <div class="admonition example">
 <p class="admonition-title">Problem 3</p>
@@ -2298,28 +2278,27 @@ How many mL?</p>
 </div>
 <details class="success">
 <summary>Answer</summary>
-<p>Step 1 — calculated dose:
+<p>Calculated dose:
 [75 \cancel{\text{ kg}} \times \frac{10 \text{ mg}}{1 \cancel{\text{ kg}}} = 750 \text{ mg}]</p>
 <p>750 mg exceeds max of 600 mg — <strong>use 600 mg</strong></p>
-<p>Step 2 — volume:
-[\frac{600 \cancel{\text{ mg}}}{1} \times \frac{5 \text{ mL}}{200 \cancel{\text{ mg}}} = 15 \text{ mL}]</p>
+<p>Volume:
+[600 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{200 \cancel{\text{ mg}}} = 15 \text{ mL}]</p>
 </details>
 <div class="admonition example">
 <p class="admonition-title">Problem 4</p>
-<p>Order: vancomycin 20 mg/kg/day IV
-divided every 12 hours
+<p>Order: vancomycin 20 mg/kg/day IV divided every 12 hours
 Patient weight: 60 kg
 Stock: 500 mg/10 mL
 How many mL per dose?</p>
 </div>
 <details class="success">
 <summary>Answer</summary>
-<p>Step 1 — total daily dose:
+<p>Total daily dose:
 [60 \cancel{\text{ kg}} \times \frac{20 \text{ mg}}{1 \cancel{\text{ kg}}} = 1200 \text{ mg/day}]</p>
-<p>Step 2 — single dose (every 12 hours = 2 doses/day):
-[1200 \div 2 = 600 \text{ mg per dose}]</p>
-<p>Step 3 — volume:
-[\frac{600 \cancel{\text{ mg}}}{1} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 12 \text{ mL}]</p>
+<p>Single dose (every 12 hours = 2 doses/day):
+[1200 \text{ mg/day} \times \frac{1 \text{ day}}{2 \text{ doses}} = 600 \text{ mg/dose}]</p>
+<p>Volume:
+[600 \cancel{\text{ mg}} \times \frac{10 \text{ mL}}{500 \cancel{\text{ mg}}} = 12 \text{ mL}]</p>
 </details>
 <div class="admonition example">
 <p class="admonition-title">Problem 5</p>
@@ -2330,19 +2309,56 @@ How many mL?</p>
 </div>
 <details class="success">
 <summary>Answer</summary>
-<p>Step 1 — convert weight:
-[132 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 60 \text{ kg}]</p>
-<p>Step 2 — full chain:
-[\frac{60 \cancel{\text{ kg}}}{1} \times \frac{0.1 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 0.6 \text{ mL}]</p>
+<div class="arithmatex">\[132 \cancel{\text{ lb}} \times \frac{1 \cancel{\text{ kg}}}{2.2 \cancel{\text{ lb}}} \times \frac{0.1 \cancel{\text{ mg}}}{1 \cancel{\text{ kg}}} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 0.6 \text{ mL}\]</div>
 </details>
 <div class="admonition warning">
-<p class="admonition-title">Clinical Tip</p>
-<p>For weight-based medications, document the patient's 
-weight used for the calculation in your nursing notes. 
-If the weight changes significantly — such as after 
-surgery or with fluid shifts — notify the prescriber 
+<p class="admonition-title">Document the weight used</p>
+<p>Record the patient's weight used for the calculation in your
+nursing notes. If the weight changes significantly — such as
+after surgery or with fluid shifts — notify the prescriber
 as the dose may need to be recalculated.</p>
 </div>
+<hr />
+<h2 id="self-check">Self-Check<a class="headerlink" href="#self-check" title="Permanent link">&para;</a></h2>
+<div class="self-check" id="wbd-self-check"></div>
+
+<script type="application/json" id="wbd-self-check-data">
+[
+  {
+    "id": "wbd-1",
+    "question": "Order: gentamicin 3 mg/kg IV. Patient weight: 90 kg. Stock: 10 mg/mL. How many mL?",
+    "options": ["2.7 mL", "27 mL", "30 mL", "3 mL"],
+    "correct": 1,
+    "feedback": "90 kg × (3 mg / 1 kg) × (1 mL / 10 mg) = 270 / 10 = 27 mL."
+  },
+  {
+    "id": "wbd-2",
+    "question": "Order: ibuprofen 10 mg/kg orally, max 400 mg. Patient weighs 55 kg. What dose do you administer?",
+    "options": ["550 mg", "400 mg", "500 mg", "450 mg"],
+    "correct": 1,
+    "feedback": "Calculated dose: 55 kg × 10 mg/kg = 550 mg. This exceeds the 400 mg maximum. Administer 400 mg."
+  },
+  {
+    "id": "wbd-3",
+    "question": "Order: amoxicillin 30 mg/kg/day divided every 8 hours. Patient weighs 20 kg. What is the single dose?",
+    "options": ["100 mg", "150 mg", "200 mg", "600 mg"],
+    "correct": 2,
+    "feedback": "Total daily dose: 20 kg × 30 mg/kg = 600 mg/day. Every 8 hours = 3 doses/day. Single dose: 600 / 3 = 200 mg."
+  },
+  {
+    "id": "wbd-4",
+    "question": "A patient's weight is documented as 165 lb. What is the first step before calculating a weight-based dose?",
+    "options": [
+      "Estimate the dose based on appearance",
+      "Use 165 as the weight in the calculation",
+      "Convert lb to kg using (165 lb × 1 kg / 2.2 lb)",
+      "Round to the nearest 10 lb first"
+    ],
+    "correct": 2,
+    "feedback": "165 lb × (1 kg / 2.2 lb) = 75 kg. Always convert to kg before calculating. Never use lb directly in a mg/kg calculation."
+  }
+]
+</script>
 
 
 

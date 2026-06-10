@@ -1845,6 +1845,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#self-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Self-Check
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2226,14 +2237,14 @@ Order: 1000 mL over 8 hours
 Tubing: 20 gtt/mL
 What is the drip rate in gtt/min?</p>
 <p>Convert time to minutes:
-[8 \text{ hr} \times 60 \text{ min/hr} = 480 \text{ min}]</p>
+[8 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 480 \text{ min}]</p>
 <p>Calculate drip rate:
 [\frac{1000 \text{ mL}}{480 \text{ min}} \times 20 \text{ gtt/mL} = 41.7 \text{ gtt/min}]</p>
 <p>Round to: <strong>42 gtt/min</strong></p>
 <p><strong>Example 2:</strong>
 Order: 500 mL over 4 hours
 Tubing: 15 gtt/mL</p>
-<div class="arithmatex">\[4 \text{ hr} \times 60 = 240 \text{ min}\]</div>
+<div class="arithmatex">\[4 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 240 \text{ min}\]</div>
 <div class="arithmatex">\[\frac{500 \text{ mL}}{240 \text{ min}} \times 15 \text{ gtt/mL} = 31.25 \text{ gtt/min}\]</div>
 <p>Round to: <strong>31 gtt/min</strong></p>
 <h2 id="calculations-from-hourly-rate">Calculations from Hourly Rate<a class="headerlink" href="#calculations-from-hourly-rate" title="Permanent link">&para;</a></h2>
@@ -2294,7 +2305,7 @@ What is the drip rate?</p>
 <details class="success">
 <summary>Answer</summary>
 <p>Convert time:
-[10 \times 60 = 600 \text{ min}]</p>
+[10 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 600 \text{ min}]</p>
 <p>Calculate:
 [\frac{1000 \text{ mL}}{600 \text{ min}} \times 20 \text{ gtt/mL} = 33.3 \text{ gtt/min}]</p>
 <p>Round to: <strong>33 gtt/min</strong></p>
@@ -2308,7 +2319,7 @@ What is the drip rate?</p>
 <details class="success">
 <summary>Answer</summary>
 <p>Convert time:
-[6 \times 60 = 360 \text{ min}]</p>
+[6 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 360 \text{ min}]</p>
 <p>Calculate:
 [\frac{500 \text{ mL}}{360 \text{ min}} \times 15 \text{ gtt/mL} = 20.8 \text{ gtt/min}]</p>
 <p>Round to: <strong>21 gtt/min</strong></p>
@@ -2321,7 +2332,7 @@ What is the drip rate?</p>
 </div>
 <details class="success">
 <summary>Answer</summary>
-<div class="arithmatex">\[\frac{80 \times 20}{60} = \frac{1600}{60} = 26.7 \text{ gtt/min}\]</div>
+<div class="arithmatex">\[\frac{80 \text{ mL/hr} \times 20 \text{ gtt/mL}}{60 \text{ min/hr}} = \frac{1600}{60} = 26.7 \text{ gtt/min}\]</div>
 <p>Round to: <strong>27 gtt/min</strong></p>
 </details>
 <div class="admonition example">
@@ -2335,7 +2346,7 @@ What is the drip rate?</p>
 <p>Using microdrip shortcut:</p>
 <p><strong>30 gtt/min</strong></p>
 <p>Verify:
-[\frac{30 \times 60}{60} = 30 \text{ gtt/min} ✅]</p>
+[\frac{30 \text{ mL/hr} \times 60 \text{ gtt/mL}}{60 \text{ min/hr}} = 30 \text{ gtt/min} ✓]</p>
 </details>
 <div class="admonition example">
 <p class="admonition-title">Problem 5</p>
@@ -2346,7 +2357,7 @@ What is the drip rate?</p>
 <details class="success">
 <summary>Answer</summary>
 <p>Convert time:
-[2 \times 60 = 120 \text{ min}]</p>
+[2 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 120 \text{ min}]</p>
 <p>Calculate:
 [\frac{250 \text{ mL}}{120 \text{ min}} \times 10 \text{ gtt/mL} = 20.8 \text{ gtt/min}]</p>
 <p>Round to: <strong>21 gtt/min</strong></p>
@@ -2360,7 +2371,7 @@ What is the drip rate?</p>
 <details class="success">
 <summary>Answer</summary>
 <p>Convert time:
-[12 \times 60 = 720 \text{ min}]</p>
+[12 \cancel{\text{ hr}} \times \frac{60 \text{ min}}{1 \cancel{\text{ hr}}} = 720 \text{ min}]</p>
 <p>Calculate:
 [\frac{1000 \text{ mL}}{720 \text{ min}} \times 15 \text{ gtt/mL} = 20.8 \text{ gtt/min}]</p>
 <p>Round to: <strong>21 gtt/min</strong></p>
@@ -2373,6 +2384,47 @@ hourly volume checkpoints so you can verify
 the infusion is running on schedule at a glance 
 without recalculating every time.</p>
 </div>
+<hr />
+<h2 id="self-check">Self-Check<a class="headerlink" href="#self-check" title="Permanent link">&para;</a></h2>
+<div class="self-check" id="drip-self-check"></div>
+
+<script type="application/json" id="drip-self-check-data">
+[
+  {
+    "id": "drip-1",
+    "question": "Order: 500 mL over 4 hours. Tubing: 20 gtt/mL. What is the drip rate?",
+    "options": ["25 gtt/min", "42 gtt/min", "31 gtt/min", "35 gtt/min"],
+    "correct": 1,
+    "feedback": "4 hr × 60 = 240 min. (500 mL / 240 min) × 20 gtt/mL = 41.7 → 42 gtt/min."
+  },
+  {
+    "id": "drip-2",
+    "question": "An IV is running at 45 mL/hr using microdrip tubing (60 gtt/mL). What is the drip rate?",
+    "options": ["30 gtt/min", "45 gtt/min", "60 gtt/min", "75 gtt/min"],
+    "correct": 1,
+    "feedback": "With microdrip tubing, gtt/min always equals mL/hr. 45 mL/hr = 45 gtt/min."
+  },
+  {
+    "id": "drip-3",
+    "question": "Rate: 100 mL/hr. Tubing: 15 gtt/mL. What is the drip rate?",
+    "options": ["20 gtt/min", "25 gtt/min", "30 gtt/min", "35 gtt/min"],
+    "correct": 1,
+    "feedback": "(100 mL/hr × 15 gtt/mL) / 60 min/hr = 1500 / 60 = 25 gtt/min."
+  },
+  {
+    "id": "drip-4",
+    "question": "Why are gravity drip rates rechecked every 30–60 minutes?",
+    "options": [
+      "To recalculate the drop factor",
+      "Because rates can drift due to patient movement and vein pressure changes",
+      "To adjust the flow rate based on urine output",
+      "Because microdrip tubing clogs frequently"
+    ],
+    "correct": 1,
+    "feedback": "Gravity rates are affected by patient position, arm movement, IV bag height, and vein pressure. Unlike pumps, they are not self-correcting and must be monitored regularly."
+  }
+]
+</script>
 
 
 
