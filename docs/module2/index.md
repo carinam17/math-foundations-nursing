@@ -1,5 +1,6 @@
 # Module 2 – Units of Measurement & Conversions
 
+
 ## Overview
 
 Accurate unit conversion is one of the most critical skills in nursing 
@@ -12,11 +13,11 @@ serious medication error.
 
 By the end of this module you should be able to:
 
-- Identify and use units of the metric system
-- Identify common household measurements
-- Convert between units within the metric system
+- Identify and use units of the **metric system**
+- Identify common **household measurements**
+- **Convert** between units within the metric system
 - Convert between metric and household measurements
-- Apply dimensional analysis to solve conversion problems
+- Apply **dimensional analysis** to solve conversion problems
 
 
 ## Topics
@@ -25,6 +26,8 @@ By the end of this module you should be able to:
 - [Household Measurements](household-measurements.md)
 - [Converting Between Units](conversions.md)
 - [Dimensional Analysis](dimensional-analysis.md)
+
+
 
 ## Estimated Time
 
@@ -40,6 +43,8 @@ Approximately 1.5–2 hours including practice problems.
     - 1 L = 1000 mL
     - 1 tsp = 5 mL
     - 1 tbsp = 15 mL
+
+    Make and use flashcards or write the conversions down from memory to reinforce them.
 
 !!! info "Why This Matters"
     Medication orders may be written in one unit while stock is 

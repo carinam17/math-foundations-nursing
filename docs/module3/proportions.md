@@ -1,99 +1,87 @@
 # Proportions
 
-## What Is a Proportion?
-
-A proportion is a statement that two ratios are equal:
+A proportion states that two ratios are equal:
 
 \[\frac{a}{b} = \frac{c}{d}\]
 
-In nursing, proportions let us solve for an unknown quantity 
-when we know three of the four values. This is the core 
-of most dosage calculations.
+In nursing, proportions appear any time you apply a stock ratio to
+a specific order. The stock ratio and the ordered dose are two equal
+expressions of the same relationship — one known, one to be found.
 
-## Setting Up a Proportion
 
-The key is keeping units consistent — the same unit must 
-appear in the same position on both sides.
+---
 
-\[\frac{\text{dose on hand}}{\text{quantity on hand}} = \frac{\text{desired dose}}{\text{desired quantity}}\]
+## Proportions and Stock Ratios
 
-**Example:**
-Stock: 250 mg per tablet
-Order: 500 mg
-How many tablets?
+Every dosage calculation is a proportion. You have a stock ratio
+from the label, and you need to find the quantity that matches
+the ordered dose.
+
+**Stock:** 250 mg per tablet
+**Order:** 500 mg
+
+These form a proportion:
 
 \[\frac{250 \text{ mg}}{1 \text{ tablet}} = \frac{500 \text{ mg}}{x \text{ tablets}}\]
 
-## Solving for the Unknown
+The same ratio holds — you just need to find x.
 
-Once the proportion is set up, solve using cross-multiplication 
-(covered in detail in the next section):
+---
 
-\[250x = 500 \times 1\]
-\[x = \frac{500}{250} = 2 \text{ tablets}\]
+## Solving with Dimensional Analysis
 
-## The Means and Extremes
+Rather than solving for x algebraically, dimensional analysis
+sets up the proportion as a cancellation chain:
 
-In a proportion written in colon format:
+\[500 \cancel{\text{ mg}} \times \frac{1 \text{ tablet}}{250 \cancel{\text{ mg}}} = 2 \text{ tablets}\]
 
-\[a : b = c : d\]
+The stock ratio is written as a factor, oriented so mg cancels.
+The result is x directly — no algebra needed.
 
-- **Extremes** are the outer values: a and d
-- **Means** are the inner values: b and c
-- The product of the means always equals the product of the extremes
+This is why DA is the preferred method. The proportion structure
+is still there; the cancellation handles the solving.
 
-\[a \times d = b \times c\]
+!!! info "Alternative methods"
+    If you have learned cross-multiplication or ratio-proportion
+    algebraic solving, those methods work for the same problems.
+    They are covered in [Additional Methods](../reference/additional-methods.md).
 
-This is the mathematical basis for cross-multiplication.
+---
 
-## Checking Your Answer
+## Reasonableness Check
 
-Always verify by substituting your answer back into 
-the original proportion:
+Before accepting any answer, ask:
 
-\[\frac{250 \text{ mg}}{1 \text{ tablet}} = \frac{500 \text{ mg}}{2 \text{ tablets}}\]
+- Would a nurse realistically give this many tablets?
+- Is this volume reasonable to administer?
+- Does the direction make sense — more drug, more volume?
 
-Simplify the right side:
-\[\frac{500}{2} = 250 ✅\]
+General guidelines:
 
-Both sides are equal — the answer is correct.
+- Oral tablets: rarely more than **3 tablets** per dose
+- Oral liquid: typically **5–30 mL** per dose
 
-## Recognizing Unreasonable Answers
+If your answer falls outside these ranges, recheck the setup.
 
-!!! warning "Reasonableness Check"
-    Before accepting any answer ask yourself:
-
-    - Would a nurse realistically give this many tablets?
-    - Is this volume reasonable to administer?
-    - Does the answer make sense given the order and stock?
-
-    General guidelines:
-    - Oral tablets: rarely more than **3 tablets** per dose
-    - Oral liquid: typically between **5 mL and 30 mL** per dose
-    - If your answer falls outside these ranges, recheck your work
+---
 
 ## Clinical Application
 
-**Example 1:**
-Stock: 125 mg/5 mL oral suspension
+**Example 1 — oral suspension:**
+Stock: 125 mg/5 mL
 Order: 250 mg
 How many mL?
 
-\[\frac{125 \text{ mg}}{5 \text{ mL}} = \frac{250 \text{ mg}}{x \text{ mL}}\]
+\[250 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{125 \cancel{\text{ mg}}} = \frac{1250}{125} = 10 \text{ mL}\]
 
-\[125x = 250 \times 5\]
-\[125x = 1250\]
-\[x = \frac{1250}{125} = 10 \text{ mL}\]
-
-**Example 2:**
-Stock: 40 mg/mL injectable solution
+**Example 2 — injectable:**
+Stock: 40 mg/mL
 Order: 100 mg
 How many mL?
 
-\[\frac{40 \text{ mg}}{1 \text{ mL}} = \frac{100 \text{ mg}}{x \text{ mL}}\]
+\[100 \cancel{\text{ mg}} \times \frac{1 \text{ mL}}{40 \cancel{\text{ mg}}} = \frac{100}{40} = 2.5 \text{ mL}\]
 
-\[40x = 100\]
-\[x = \frac{100}{40} = 2.5 \text{ mL}\]
+---
 
 ## Practice Problems
 
@@ -103,9 +91,7 @@ How many mL?
     How many tablets?
 
 ??? success "Answer"
-    \[\frac{500 \text{ mg}}{1 \text{ tablet}} = \frac{1000 \text{ mg}}{x \text{ tablets}}\]
-    \[500x = 1000\]
-    \[x = 2 \text{ tablets}\]
+    \[1000 \cancel{\text{ mg}} \times \frac{1 \text{ tablet}}{500 \cancel{\text{ mg}}} = 2 \text{ tablets}\]
 
 !!! example "Problem 2"
     Stock: 250 mg/5 mL
@@ -113,10 +99,7 @@ How many mL?
     How many mL?
 
 ??? success "Answer"
-    \[\frac{250 \text{ mg}}{5 \text{ mL}} = \frac{375 \text{ mg}}{x \text{ mL}}\]
-    \[250x = 375 \times 5\]
-    \[250x = 1875\]
-    \[x = \frac{1875}{250} = 7.5 \text{ mL}\]
+    \[375 \cancel{\text{ mg}} \times \frac{5 \text{ mL}}{250 \cancel{\text{ mg}}} = \frac{1875}{250} = 7.5 \text{ mL}\]
 
 !!! example "Problem 3"
     Stock: 0.25 mg per tablet
@@ -124,9 +107,7 @@ How many mL?
     How many tablets?
 
 ??? success "Answer"
-    \[\frac{0.25 \text{ mg}}{1 \text{ tablet}} = \frac{0.5 \text{ mg}}{x \text{ tablets}}\]
-    \[0.25x = 0.5\]
-    \[x = \frac{0.5}{0.25} = 2 \text{ tablets}\]
+    \[0.5 \cancel{\text{ mg}} \times \frac{1 \text{ tablet}}{0.25 \cancel{\text{ mg}}} = 2 \text{ tablets}\]
 
 !!! example "Problem 4"
     Stock: 10 mg/mL
@@ -134,9 +115,7 @@ How many mL?
     How many mL?
 
 ??? success "Answer"
-    \[\frac{10 \text{ mg}}{1 \text{ mL}} = \frac{25 \text{ mg}}{x \text{ mL}}\]
-    \[10x = 25\]
-    \[x = 2.5 \text{ mL}\]
+    \[25 \cancel{\text{ mg}} \times \frac{1 \text{ mL}}{10 \cancel{\text{ mg}}} = 2.5 \text{ mL}\]
 
 !!! example "Problem 5"
     Stock: 80 mg/2 mL
@@ -144,12 +123,53 @@ How many mL?
     How many mL?
 
 ??? success "Answer"
-    \[\frac{80 \text{ mg}}{2 \text{ mL}} = \frac{60 \text{ mg}}{x \text{ mL}}\]
-    \[80x = 60 \times 2\]
-    \[80x = 120\]
-    \[x = \frac{120}{80} = 1.5 \text{ mL}\]
+    \[60 \cancel{\text{ mg}} \times \frac{2 \text{ mL}}{80 \cancel{\text{ mg}}} = \frac{120}{80} = 1.5 \text{ mL}\]
 
-!!! tip "Double Check Method"
-    After solving, always verify:
-    \[\frac{80 \text{ mg}}{2 \text{ mL}} = \frac{60 \text{ mg}}{1.5 \text{ mL}}\]
-    \[80 \times 1.5 = 120 = 60 \times 2 ✅\]
+---
+
+## Self-Check
+
+<div class="self-check" id="prop-self-check"></div>
+
+<script type="application/json" id="prop-self-check-data">
+[
+  {
+    "id": "prop-1",
+    "question": "Stock: 250 mg/5 mL. Order: 500 mg. Which DA setup is correct?",
+    "options": [
+      "500 mg × (250 mg / 5 mL)",
+      "500 mg × (5 mL / 250 mg)",
+      "250 mg × (500 mg / 5 mL)",
+      "5 mL × (500 mg / 250 mg)"
+    ],
+    "correct": 1,
+    "feedback": "500 mg × (5 mL / 250 mg) = 10 mL. The stock ratio is oriented with mL on top so mg cancels, leaving mL."
+  },
+  {
+    "id": "prop-2",
+    "question": "Stock: 10 mg per tablet. Order: 30 mg. How many tablets?",
+    "options": ["1 tablet", "2 tablets", "3 tablets", "0.3 tablets"],
+    "correct": 2,
+    "feedback": "30 mg × (1 tablet / 10 mg) = 3 tablets. This is at the upper limit of a typical oral dose — worth a reasonableness check before administering."
+  },
+  {
+    "id": "prop-3",
+    "question": "Your calculation gives 45 mL for a single oral dose. What should you do?",
+    "options": [
+      "Administer — the math is correct",
+      "Round to 40 mL for convenience",
+      "Recheck the setup — 45 mL is outside the typical range",
+      "Split into two 22.5 mL doses"
+    ],
+    "correct": 2,
+    "feedback": "45 mL exceeds the typical 5–30 mL range for a single oral dose. Recheck the stock ratio and order before proceeding."
+  },
+  {
+    "id": "prop-4",
+    "question": "Stock: 40 mg/mL. Order: 80 mg. How many mL?",
+    "options": ["0.5 mL", "1 mL", "2 mL", "3.2 mL"],
+    "correct": 2,
+    "feedback": "80 mg × (1 mL / 40 mg) = 2 mL. The dose doubled, so the volume doubles — that's a proportional relationship."
+  }
+]
+</script>

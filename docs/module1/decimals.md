@@ -10,7 +10,7 @@ fractional parts on the right.
 |---|---|---|---|---|---|---|---|
 | Example | 0 | 0 | 3 | . | 4 | 5 | 6 |
 
-In nursing, decimals are everywhere — medication doses, 
+In nursing, decimals are everywhere, including medication doses, 
 IV rates, lab values, and weight-based calculations.
 
 ## Patient Safety Rules

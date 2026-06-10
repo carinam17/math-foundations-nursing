@@ -13,6 +13,7 @@ essential for patient education and safe home care instructions.
 
 ## Common Household Units
 
+
 ### Volume
 
 | Household Unit | Abbreviation | Metric Equivalent |
@@ -32,6 +33,31 @@ essential for patient education and safe home care instructions.
 | ounce | oz | 30 g |
 | pound | lb | 453.6 g |
 | pound | lb | 0.454 kg |
+
+
+## Conversion Factors
+
+Every household-to-metric relationship is also a factor pair:
+
+\[\frac{5 \text{ mL}}{1 \text{ tsp}} \quad \text{or} \quad \frac{1 \text{ tsp}}{5 \text{ mL}}\]
+
+\[\frac{15 \text{ mL}}{1 \text{ tbsp}} \quad \text{or} \quad \frac{1 \text{ tbsp}}{15 \text{ mL}}\]
+
+\[\frac{2.2 \text{ lb}}{1 \text{ kg}} \quad \text{or} \quad \frac{1 \text{ kg}}{2.2 \text{ lb}}\]
+
+Choose the orientation that puts the unit you **want** on top and
+the unit you **have** on the bottom.
+
+**Example — tsp to mL:**
+You have 3 tsp and want mL. Put mL on top:
+
+\[3 \cancel{\text{ tsp}} \times \frac{5 \text{ mL}}{1 \cancel{\text{ tsp}}} = 15 \text{ mL}\]
+
+**Example — lb to kg:**
+You have 132 lb and want kg. Put kg on top:
+
+\[132 \cancel{\text{ lb}} \times \frac{1 \text{ kg}}{2.2 \cancel{\text{ lb}}} = 60 \text{ kg}\]
+
 
 
 

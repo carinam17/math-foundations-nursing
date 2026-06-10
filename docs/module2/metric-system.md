@@ -4,7 +4,17 @@
 The metric system is the international standard for medication 
 dosing and clinical measurement. Unlike household measurements, 
 the metric system is decimal-based. Everything scales by 
-powers of 10, making conversions straightforward.
+**powers of 10**, making conversions straightforward.
+
+
+!!! tip "Powers of ten"
+    A power of ten means 10 multiplied by itself a set number of times:
+    10³ = 1000, 10² = 100, 10¹ = 10. In the metric system you only ever
+    multiply or divide by 1000 (10³) when moving one prefix step.
+    New to this? See [Whole Numbers — Powers of Ten](../module1/whole-numbers.md).
+
+
+
 
 
 
@@ -58,6 +68,14 @@ $$1 \text{ L} = 1000 \text{ mL}$$
 
 $$1 \text{ dL} = 100 \text{ mL}$$
 
+!!! info "Each equality is a factor pair"
+    Every conversion you just memorized can be written as a fraction
+    two ways — both equal 1:
+
+    \[\frac{1000 \text{ mg}}{1 \text{ g}} \quad \text{or} \quad \frac{1 \text{ g}}{1000 \text{ mg}}\]
+
+    You choose the orientation that cancels the unit you want to remove.
+    This is how every metric conversion is set up in dimensional analysis.
 
 
 ### Abbreviation Safety
