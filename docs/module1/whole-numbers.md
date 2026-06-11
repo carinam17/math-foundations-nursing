@@ -1,17 +1,13 @@
 ## Whole Numbers
 
 Whole numbers are the counting numbers including zero: 0, 1, 2, 3, 4, 5...
-In nursing, whole numbers appear constantly number of tablets, number of 
+In nursing, whole numbers can represent the number of tablets, number of 
 doses, days of treatment, and more.
 
 ## Operations Review
 
 
 ### Addition and Subtraction
-
-1. Line up numbers by place value and work right to left.
-
-
 
 **Clinical example:**
 A patient receives 2 tablets in the morning, 1 at noon, and 2 at night.

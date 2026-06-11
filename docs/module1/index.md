@@ -2,11 +2,11 @@
 
 ## Overview
 
-This module covers the number operations that appear inside every
-clinical calculation. You will learn how to work with whole numbers, fractions, decimals, rounding, and percentages.
+This module covers the numerical operations needed for clinical calculations. You will learn how to work with whole numbers, fractions, decimals, rounding, and percentages.
 
 Work through each topic in order, or use the self-check at the end
-of each page to confirm you're ready and move on.
+of each page to confirm you're ready to move forward.
+
 
 ## Learning Objectives
 
@@ -41,5 +41,5 @@ Approximately 1–2 hours including practice problems.
 !!! info "Notation Safety"
     The rules for writing numbers safely are covered in
     [Writing Numbers Safely](../start-here/notation-safety.md)
-    in the Start Here section. Review that page before beginning
+    in the **Start Here** section. Review that page before beginning
     if you haven't already.

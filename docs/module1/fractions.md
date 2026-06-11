@@ -10,11 +10,12 @@ two parts:
 
 \[\frac{\text{numerator}}{\text{denominator}}\]
 
-In dimensional analysis, every conversion factor is a fraction. The
-numerator and denominator are not arbitrary — they represent the same
-quantity expressed in two different units, or a rate between two
-quantities. Which unit you place on top determines which unit will
+In **dimensional analysis**, every conversion factor is a fraction. The
+numerator and denominator represent the same
+quantity expressed in two different units. Fractions also express rates  Which unit you place on top determines which unit will
 survive after cancellation.
+
+
 
 \[\frac{1\text{ g}}{1000\text{ mg}} \qquad \frac{1000\text{ mg}}{1\text{ g}}\]
 
