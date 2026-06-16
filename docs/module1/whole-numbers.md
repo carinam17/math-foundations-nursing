@@ -1,14 +1,22 @@
 ## Whole Numbers
 
 Whole numbers are the counting numbers including zero: 0, 1, 2, 3, 4, 5...
+<<<<<<< HEAD
 In nursing, whole numbers can represent the number of tablets, number of 
+=======
+In nursing, whole numbers can represent quantities like the number of tablets, number of 
+>>>>>>> e5bced8 (update content)
 doses, days of treatment, and more.
+
 
 ## Operations Review
 
-
 ### Addition and Subtraction
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> e5bced8 (update content)
 **Clinical example:**
 A patient receives 2 tablets in the morning, 1 at noon, and 2 at night.
 How many tablets per day?

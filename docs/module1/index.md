@@ -2,20 +2,28 @@
 
 ## Overview
 
+<<<<<<< HEAD
 This module covers the numerical operations needed for clinical calculations. You will learn how to work with whole numbers, fractions, decimals, rounding, and percentages.
 
 Work through each topic in order, or use the self-check at the end
 of each page to confirm you're ready to move forward.
 
+=======
+This module covers the numerical operations needed to perform
+clinical calculations. You will learn how to work with whole numbers, fractions, decimals, rounding, and percentages.
+
+Work through each topic in order, or use the self-check at the end
+of each page to confirm you're ready to move forward.
+>>>>>>> e5bced8 (update content)
 
 ## Learning Objectives
 
 By the end of this module you will be able to:
 
-- Perform operations with whole numbers, fractions, and decimals
-- Round numbers to the required precision using nursing standards
-- Read and calculate with percentages and solution concentrations
-- Recognize fractions as relationships between quantities. 
+- Perform operations with whole numbers, fractions, and decimals.
+- Round numbers to the required precision using nursing standards.
+- Read and calculate with percentages and solution concentrations.
+- Recognize fractions as relationships between quantities.
 
 
 ## Topics
