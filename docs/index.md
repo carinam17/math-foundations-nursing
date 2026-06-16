@@ -3,6 +3,7 @@
 Welcome. This guide helps nursing students build confidence and accuracy
 with the math skils used in clinical practice. Work through this material at your own pace and return to it for review and reinforcement. 
 
+
 ## Office Hours
 
 Need extra help? Join live, virtual office hours where you can bring your questions, homework, or work in progress.

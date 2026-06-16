@@ -87,7 +87,8 @@ nav:
     - Answer Key: module6/answer-key.md
     
   - Interactive:
-    - Overview: interactive/index.md
+    - Demo: interactive/demo.md
+    - Practice 1: interactive/index.md
 
 
 copyright: >
