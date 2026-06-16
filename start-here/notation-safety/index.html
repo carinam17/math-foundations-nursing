@@ -357,7 +357,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../interactive/" class="md-tabs__link">
+        <a href="../../interactive/demo/" class="md-tabs__link">
           
   
   
@@ -2086,6 +2086,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../interactive/demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../interactive/" class="md-nav__link">
         
   
@@ -2093,7 +2121,7 @@
   <span class="md-ellipsis">
     
   
-    Overview
+    Practice 1
   
 
     
@@ -2132,8 +2160,7 @@
 
 
 <h1 id="writing-numbers-safely">Writing Numbers Safely<a class="headerlink" href="#writing-numbers-safely" title="Permanent link">&para;</a></h1>
-<p>In healthcare, <em>how you write a number</em> is a patient-safety issue. A misplaced
-or misread decimal point is a common source of medication
+<p>In healthcare, <em>how you write a number</em> is a patient-safety issue. A misplaced or misread decimal point is a common source of medication
 errors and are preventable with consistent notation.</p>
 <p>These conventions come from the <a href="https://www.ismp.org/">Institute for Safe Medication Practices
 (ISMP)</a> and are standard across nursing practice.</p>
@@ -2141,8 +2168,8 @@ errors and are preventable with consistent notation.</p>
 <table>
 <thead>
 <tr>
-<th>Write</th>
-<th>Not</th>
+<th>Write this</th>
+<th>Not this</th>
 </tr>
 </thead>
 <tbody>
@@ -2155,11 +2182,22 @@ errors and are preventable with consistent notation.</p>
 <p>A decimal point is easy to miss. Without the leading zero, <code>.5 mg</code> can be read
 as <code>5 mg</code> — a <strong>tenfold increase</strong>. The leading zero makes the decimal stand out better.</p>
 <h3 id="2-do-not-use-a-trailing-zero">2. Do not use a trailing zero<a class="headerlink" href="#2-do-not-use-a-trailing-zero" title="Permanent link">&para;</a></h3>
-<p>| Write this | Not this |
-|---|---|s
-| <code>5 mg</code> | <code>5.0 mg</code> |</p>
-<p>If the decimal point is missed, <code>5.0 mg</code> reads as <code>50 mg</code>,  <strong>tenfold
-increase</strong>. A trailing zero creates </p>
+<table>
+<thead>
+<tr>
+<th>Write this</th>
+<th>Not this</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>5 mg</code></td>
+<td><code>5.0 mg</code></td>
+</tr>
+</tbody>
+</table>
+<p>If the decimal point is missed, <code>5.0 mg</code> reads as <code>50 mg</code>, a  <strong>tenfold
+increase</strong></p>
 <h3 id="3-use-commas-in-large-numbers">3. Use commas in large numbers<a class="headerlink" href="#3-use-commas-in-large-numbers" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
@@ -2180,15 +2218,14 @@ misreading the magnitude.</p>
 <div class="admonition note">
 <p class="admonition-title">One exception — practice tools on this site</p>
 <p>When you <em>enter</em> answers in this site's interactive exercises, type plain
-numbers <strong>without</strong> commas. That's a quirk of the input field, not a
-clinical rule. In real charting, follow rule 3.</p>
+numbers <strong>without</strong> commas.</p>
 </div>
 <h3 id="4-spell-out-units">4. Spell out "units"<a class="headerlink" href="#4-spell-out-units" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
-<th>Write</th>
-<th>Not</th>
+<th>Write this</th>
+<th>Not this</th>
 </tr>
 </thead>
 <tbody>
@@ -2198,7 +2235,7 @@ clinical rule. In real charting, follow rule 3.</p>
 </tr>
 </tbody>
 </table>
-<p>The abbreviation <code>U</code> is easily misread as <code>0</code> or <code>4</code>, turning <code>5,000 U</code> into
+<p>The abbreviation <code>U</code> can be misread as <code>0</code> or <code>4</code>, turning <code>5,000 U</code> into
 something far larger. Always write the word "units" in full.</p>
 <h3 id="5-use-mcg-for-micrograms">5. Use mcg for micrograms<a class="headerlink" href="#5-use-mcg-for-micrograms" title="Permanent link">&para;</a></h3>
 <table>
@@ -2215,16 +2252,15 @@ something far larger. Always write the word "units" in full.</p>
 </tr>
 </tbody>
 </table>
-<p>The Greek letter <em>μ</em> is used for the metric prefix <strong>micro</strong>. This can be mistaken for <em>m</em>, the abbreviation for <strong>micro</strong>. Use <em>mcg</em> to represent the unit <strong>micrograms</strong>. </p>
+<p>The Greek letter <em>μ</em> is used for the metric prefix <strong>micro</strong>. This can be mistaken for <em>m</em>, the abbreviation for <strong>mili</strong>. Use <em>mcg</em> to represent the unit <strong>micrograms</strong>. </p>
 <h2 id="why-this-matters">Why this matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
 <p>Each rule exists because a real error pattern caused real harm. The common
-thread is the decimal point: small, easy to miss, and the difference between a
-correct dose and a tenfold one. Consistent notation is a habit that protects
-your patients — build it now, while you are learning the math.</p>
+thread is being able to identify the decimal point and distinguish digits. Consistent notation is a habit that protects
+your patients, so build it now.</p>
 <div class="admonition warning">
 <p class="admonition-title">One more — mcg, not μg</p>
 <p>Always write micrograms as <strong>mcg</strong>, never the Greek symbol <strong>μg</strong>. The
-symbol μ is easily mistaken for <strong>m</strong> (milligrams) — another tenfold error.</p>
+symbol μ is easily mistaken for <strong>m</strong> (milligrams), another tenfold error.</p>
 </div>
 
 
