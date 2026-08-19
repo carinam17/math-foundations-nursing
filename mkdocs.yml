@@ -49,13 +49,13 @@ nav:
 
   - M2 · Conversions:
     - Overview: module2/index.md
-    - Measurement Systems: module2/measurement-systems.md   # NEW — create in module2/
+    - Measurement Systems: module2/measurement-systems.md   
     - The Metric System: module2/metric-system.md
     - Household Measurements: module2/household-measurements.md
     - Converting Between Units: module2/conversions.md
     - Dimensional Analysis: module2/dimensional-analysis.md
-    - Checking Your Setup: module2/unit-cancellation.md     # MOVE — git mv module3/ → module2/
-    - Conversion Factors to Know: module2/conversion-factor-check.md  # NEW — create in module2/
+    - Checking Your Setup: module2/unit-cancellation.md    
+    - Conversion Factors to Know: module2/conversion-factor-check.md 
 
 
   - M3 · Ratio and Proportion:
@@ -102,13 +102,16 @@ copyright: >
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> — 
   Free for personal and non-commercial use.
 
+
+
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.details
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.snippets:
-      base_path: ['includes']  # adjust path to wherever you place snippet files
+      base_path: ['includes']
       check_paths: true
   - tables
   - toc:
