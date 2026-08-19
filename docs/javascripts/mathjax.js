@@ -2,6 +2,7 @@
 // MathJax 3 configuration for Convergent Math nursing textbook
 // Place this file at: docs/javascripts/mathjax.js (relative to your mkdocs project root)
 
+
 window.MathJax = {
   loader: {
     load: ['[tex]/cancel']

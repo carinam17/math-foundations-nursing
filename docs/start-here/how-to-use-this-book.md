@@ -3,18 +3,18 @@
 This book is built to be *worked through* and contains opportunities to review and reinforce the skills and knowledge presented. Work at your pace and progress through to build confidence and proficiency with the calculations. 
 
 
-## Every problem has the same four parts
+## About practice problems
 
-When you open a practice problem, you'll see this structure:
+
+Every practice problem has this structure:
 
 **The problem** is always visible. Read it, and try it yourself first. An attempt matters more than getting it right the
 first time.
 
 Below the problem are three dropdowns. Click any one to open it:
 
-- **Hint** — A nudge to get you started: a reference, a formula, or the
-  relationship you need. Open this if you're not sure how to begin. It won't
-  give away the answer.
+- **Hint** — A nudge to get you started: a reference, a formula, or the relationship you need. Open this if you're not sure how to begin. It won't give away the answer.
+
 - **Answer** — The full worked solution, with the math shown. Open this
   *after* you've made an attempt, to check your result.
 - **Walkthrough** — The *why* behind the solution: how the setup works and

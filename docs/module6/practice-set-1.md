@@ -10,11 +10,12 @@ specific areas that need review.
 
 
 !!! tip "How to Use This Set"
-    - Attempt every problem before checking the answer
+    - Attempt every problem before checking the answer.
     - If you get a problem wrong, identify which factor
-      was incorrect in your unit cancellation chain
+      was incorrect in your unit cancellation chain.
+    - Verify the unit cancellation.
     - Note which topics give you the most trouble and
-      review the relevant module before attempting
+      review the relevant module before attempting.
       [Practice Set 2](practice-set-2.md)
 
 ---
@@ -36,7 +37,6 @@ specific areas that need review.
     Convert 0.045 kg to g.
 
 ??? question "Hint — Memorize important conversion factors"
-
 Recall that *kilo-* means thousand. 
 
 

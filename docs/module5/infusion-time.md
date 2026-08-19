@@ -1,189 +1,255 @@
-# IV Flow Rates
+# Infusion Time
 
-## Overview
+Infusion time is how long a bag of IV fluid will take to infuse
+at a given rate. Knowing infusion time is essential for planning
+when to hang the next bag, scheduling medications, and documenting
+expected completion times.
 
-An IV flow rate tells you how many milliliters of fluid 
-to deliver per hour (mL/hr). This is the standard unit 
-for programming electronic infusion pumps in clinical 
-practice.
+---
 
-## The Basic Formula
+## The Basic Relationship
 
-\[\text{Flow Rate (mL/hr)} = \frac{\text{Volume (mL)}}{\text{Time (hr)}}\]
+\[\text{Time (hr)} = \frac{\text{Volume (mL)}}{\text{Rate (mL/hr)}}\]
 
-This is the foundation of all IV flow rate calculations.
+This is the same relationship used for flow rate calculations —
+rearranged to solve for time instead of rate.
 
-## Simple Flow Rate Calculations
+---
+
+## Simple Infusion Time
 
 **Example 1:**
-Order: 1000 mL 0.9% NaCl over 8 hours
-What is the flow rate in mL/hr?
+A 1000 mL bag is running at 125 mL/hr.
+How long will the bag take to infuse?
 
-\[\frac{1000 \text{ mL}}{8 \text{ hr}} = 125 \text{ mL/hr}\]
+\[\frac{1000 \text{ mL}}{125 \text{ mL/hr}} = 8 \text{ hr}\]
 
 **Example 2:**
-Order: 500 mL D5W over 4 hours
-What is the flow rate in mL/hr?
+A 500 mL bag is running at 100 mL/hr.
+How long will it take?
 
-\[\frac{500 \text{ mL}}{4 \text{ hr}} = 125 \text{ mL/hr}\]
+\[\frac{500 \text{ mL}}{100 \text{ mL/hr}} = 5 \text{ hr}\]
+
+---
+
+## Converting Decimal Hours to Hours and Minutes
+
+When division gives a decimal, convert the decimal portion
+to minutes by multiplying by 60.
 
 **Example 3:**
-Order: 250 mL 0.45% NaCl over 3 hours
-What is the flow rate in mL/hr?
+A 250 mL bag is running at 75 mL/hr.
 
-\[\frac{250 \text{ mL}}{3 \text{ hr}} = 83.3 \text{ mL/hr}\]
+\[\frac{250 \text{ mL}}{75 \text{ mL/hr}} = 3.33 \text{ hr}\]
 
-Round to nearest whole number: **83 mL/hr**
+Convert the decimal:
+\[0.33 \text{ hr} \times 60 \text{ min/hr} = 20 \text{ min}\]
 
-!!! info "Rounding IV Rates"
-    IV pump rates are set in **whole numbers** (mL/hr).
-    Always round flow rates to the nearest whole number 
-    unless your facility pump supports decimal rates.
-
-## Time Conversion
-
-Orders are sometimes written in minutes rather than hours.
+Total infusion time: **3 hours and 20 minutes**
 
 **Example 4:**
-Order: 100 mL 0.9% NaCl over 30 minutes
-What is the flow rate in mL/hr?
+A 1000 mL bag is running at 150 mL/hr.
 
-Convert 30 minutes to hours first:
-\[30 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 0.5 \text{ hr}\]
+\[\frac{1000 \text{ mL}}{150 \text{ mL/hr}} = 6.67 \text{ hr}\]
 
-Then calculate rate:
-\[\frac{100 \text{ mL}}{0.5 \text{ hr}} = 200 \text{ mL/hr}\]
+\[0.67 \text{ hr} \times 60 \text{ min/hr} = 40 \text{ min}\]
+
+Total: **6 hours and 40 minutes**
+
+!!! tip "Quick decimal conversions"
+    | Decimal | Minutes |
+    |---|---|
+    | 0.25 hr | 15 min |
+    | 0.33 hr | 20 min |
+    | 0.5 hr | 30 min |
+    | 0.67 hr | 40 min |
+    | 0.75 hr | 45 min |
+
+---
+
+## Remaining Infusion Time
+
+When a bag has already been partially infused, calculate
+remaining time from the remaining volume.
+
+\[\text{Remaining volume} = \text{Total volume} - \text{Volume infused}\]
+
+\[\text{Remaining time} = \frac{\text{Remaining volume}}{\text{Rate}}\]
 
 **Example 5:**
-Order: 250 mL over 90 minutes
-What is the flow rate in mL/hr?
+A 1000 mL bag was hung at 0800 and is running at 125 mL/hr.
+It is now 1100. How much time remains?
 
-\[90 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 1.5 \text{ hr}\]
-
-\[\frac{250 \text{ mL}}{1.5 \text{ hr}} = 166.7 \text{ mL/hr}\]
-
-Round to nearest whole number: **167 mL/hr**
-
-## Calculating Volume from Rate and Time
-
-Sometimes you need to find the total volume infused 
-given a rate and a time period.
-
-\[\text{Volume (mL)} = \text{Rate (mL/hr)} \times \text{Time (hr)}\]
-
-**Example 6:**
-An IV is running at 125 mL/hr. How much fluid will 
-the patient receive in 6 hours?
-
-\[125 \text{ mL/hr} \times 6 \text{ hr} = 750 \text{ mL}\]
-
-**Example 7:**
-An IV is running at 75 mL/hr. How much fluid will 
-the patient receive in 8 hours?
-
-\[75 \text{ mL/hr} \times 8 \text{ hr} = 600 \text{ mL}\]
-
-## Remaining Volume and Time
-
-**Example 8:**
-An IV of 1000 mL is running at 125 mL/hr. 
-After 3 hours, how much fluid remains?
-
-Step 1 — volume infused:
+Volume infused in 3 hours:
 \[125 \text{ mL/hr} \times 3 \text{ hr} = 375 \text{ mL}\]
 
-Step 2 — volume remaining:
+Remaining volume:
 \[1000 \text{ mL} - 375 \text{ mL} = 625 \text{ mL}\]
 
-Step 3 — time remaining:
+Remaining time:
 \[\frac{625 \text{ mL}}{125 \text{ mL/hr}} = 5 \text{ hr}\]
 
-## Pump Programming
+**Example 6:**
+A 500 mL bag is running at 100 mL/hr.
+The bag shows approximately 200 mL remaining.
+How much time is left?
 
-!!! warning "Verify Pump Settings"
-    When programming an IV pump always verify:
-    
-    1. **Rate** — mL/hr matches your calculation
-    2. **Volume to be infused (VTBI)** — total volume of the bag
-    3. **Drug library** — if pump has one, select correct drug
-    4. **Soft and hard limits** — ensure alerts are active
-    5. **Second nurse check** — for high alert medications
+\[\frac{200 \text{ mL}}{100 \text{ mL/hr}} = 2 \text{ hr}\]
+
+---
+
+## Calculating Completion Time
+
+Add infusion time to the start time to find when the
+infusion will complete.
+
+**Example 7:**
+A 1000 mL bag is hung at 0600 running at 125 mL/hr.
+When will it finish?
+
+\[\frac{1000 \text{ mL}}{125 \text{ mL/hr}} = 8 \text{ hr}\]
+
+0600 + 8 hr = **1400** (2:00 pm)
+
+**Example 8:**
+A 250 mL piggyback is started at 1430 and runs at 75 mL/hr.
+When will it finish?
+
+\[\frac{250 \text{ mL}}{75 \text{ mL/hr}} = 3.33 \text{ hr} = 3 \text{ hr } 20 \text{ min}\]
+
+1430 + 3 hr 20 min = **1750** (5:50 pm)
+
+---
+
+## Clinical Uses of Infusion Time
+
+!!! info "Why infusion time matters"
+    Knowing when an infusion will complete helps you:
+
+    - **Plan bag changes** — prepare the next bag before the
+      current one runs dry
+    - **Time lab draws** — some medications are drawn at trough
+      (just before the next dose)
+    - **Document accurately** — nursing notes require expected
+      infusion completion times
+    - **Coordinate medications** — some antibiotics must infuse
+      completely before the next dose starts
+    - **Prevent air embolism** — know when the bag will run out
+      so you can respond before the line runs dry
+
+!!! warning "Never let an IV run dry"
+    Program the pump's VTBI (volume to be infused) to alert
+    you when the bag nears empty. For critical medications,
+    have the next bag prepared and checked before the current
+    one completes.
+
+---
 
 ## Practice Problems
 
 !!! example "Problem 1"
-    Order: 1000 mL Lactated Ringer's over 10 hours
-    What is the flow rate in mL/hr?
+    A 500 mL bag is running at 125 mL/hr.
+    How long will it take to infuse?
 
 ??? success "Answer"
-    \[\frac{1000 \text{ mL}}{10 \text{ hr}} = 100 \text{ mL/hr}\]
+    \[\frac{500 \text{ mL}}{125 \text{ mL/hr}} = 4 \text{ hr}\]
 
 !!! example "Problem 2"
-    Order: 500 mL 0.9% NaCl over 6 hours
-    What is the flow rate in mL/hr?
+    A 1000 mL bag is running at 83 mL/hr.
+    How long will it take? Express in hours and minutes.
 
 ??? success "Answer"
-    \[\frac{500 \text{ mL}}{6 \text{ hr}} = 83.3 \text{ mL/hr}\]
-    
-    Round to: **83 mL/hr**
+    \[\frac{1000 \text{ mL}}{83 \text{ mL/hr}} = 12.05 \text{ hr}\]
+
+    \[0.05 \text{ hr} \times 60 = 3 \text{ min}\]
+
+    **12 hours and 3 minutes**
 
 !!! example "Problem 3"
-    Order: 150 mL 0.9% NaCl over 45 minutes
-    What is the flow rate in mL/hr?
+    A 250 mL bag was hung at 0900 and is running at 100 mL/hr.
+    It is now 1100. How many mL remain, and how much longer
+    will it run?
 
 ??? success "Answer"
-    Convert time:
-    \[45 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 0.75 \text{ hr}\]
-    
-    Calculate rate:
-    \[\frac{150 \text{ mL}}{0.75 \text{ hr}} = 200 \text{ mL/hr}\]
+    Volume infused in 2 hours:
+    \[100 \text{ mL/hr} \times 2 \text{ hr} = 200 \text{ mL}\]
+
+    Remaining:
+    \[250 - 200 = 50 \text{ mL}\]
+
+    Time remaining:
+    \[\frac{50 \text{ mL}}{100 \text{ mL/hr}} = 0.5 \text{ hr} = 30 \text{ min}\]
 
 !!! example "Problem 4"
-    An IV is running at 100 mL/hr.
-    How much fluid does the patient receive in 12 hours?
+    A 1000 mL bag is started at 2200 and is running at 80 mL/hr.
+    When will it finish?
 
 ??? success "Answer"
-    \[100 \text{ mL/hr} \times 12 \text{ hr} = 1200 \text{ mL}\]
+    \[\frac{1000 \text{ mL}}{80 \text{ mL/hr}} = 12.5 \text{ hr}\]
+
+    \[0.5 \text{ hr} = 30 \text{ min}\]
+
+    2200 + 12 hr 30 min = **1030** the next morning
 
 !!! example "Problem 5"
-    A 1000 mL bag is running at 150 mL/hr.
-    After 4 hours how much fluid remains 
-    and how much longer will it run?
+    A 500 mL bag has 325 mL remaining and is running at 150 mL/hr.
+    How much longer will it run?
 
 ??? success "Answer"
-    Volume infused:
-    \[150 \text{ mL/hr} \times 4 \text{ hr} = 600 \text{ mL}\]
-    
-    Volume remaining:
-    \[1000 - 600 = 400 \text{ mL}\]
-    
-    Time remaining:
-    \[\frac{400 \text{ mL}}{150 \text{ mL/hr}} = 2.67 \text{ hr}\]
-    
-    Approximately **2 hours and 40 minutes** remaining.
+    \[\frac{325 \text{ mL}}{150 \text{ mL/hr}} = 2.17 \text{ hr}\]
+
+    \[0.17 \text{ hr} \times 60 = 10 \text{ min}\]
+
+    **2 hours and 10 minutes**
 
 !!! example "Problem 6"
-    Order: 250 mL over 20 minutes
-    What is the flow rate in mL/hr?
+    Order: 250 mL IV antibiotic piggyback started at 1315,
+    running at 100 mL/hr. Your next assessment is at 1500.
+    Will the bag still be running?
 
 ??? success "Answer"
-    Convert time:
-    \[20 \text{ min} \times \frac{1 \text{ hr}}{60 \text{ min}} = 0.33 \text{ hr}\]
-    
-    Calculate rate:
-    \[\frac{250 \text{ mL}}{0.33 \text{ hr}} = 757.6 \text{ mL/hr}\]
-    
-    Round to: **758 mL/hr**
-    
-    !!! warning "Verify This Rate"
-        Rates above 500 mL/hr are unusual for most 
-        clinical situations. Verify the order and 
-        confirm with the prescriber before programming 
-        the pump.
+    \[\frac{250 \text{ mL}}{100 \text{ mL/hr}} = 2.5 \text{ hr} = 2 \text{ hr } 30 \text{ min}\]
 
-!!! warning "Clinical Tip"
-    After programming an IV pump always trace the 
-    tubing from the bag to the patient before starting 
-    the infusion. This confirms the correct fluid is 
-    connected to the correct line and prevents 
-    wrong-route errors.
+    1315 + 2 hr 30 min = 1545
+
+    **Yes** — the bag will still be running at 1500 with
+    45 minutes remaining (approximately 75 mL left).
+
+---
+
+## Self-Check
+
+<div class="self-check" id="inft-self-check"></div>
+
+<script type="application/json" id="inft-self-check-data">
+[
+  {
+    "id": "inft-1",
+    "question": "A 1000 mL bag is running at 200 mL/hr. How long will it take to infuse?",
+    "options": ["2 hours", "4 hours", "5 hours", "8 hours"],
+    "correct": 2,
+    "feedback": "1000 mL ÷ 200 mL/hr = 5 hours."
+  },
+  {
+    "id": "inft-2",
+    "question": "A 500 mL bag is running at 60 mL/hr. How long will it run? (Express as hours and minutes.)",
+    "options": ["7 hr 20 min", "8 hr", "8 hr 20 min", "8 hr 45 min"],
+    "correct": 2,
+    "feedback": "500 ÷ 60 = 8.33 hr. 0.33 hr × 60 = 20 min. Answer: 8 hours 20 minutes."
+  },
+  {
+    "id": "inft-3",
+    "question": "A 1000 mL bag was started at 0800 running at 125 mL/hr. It is now 1200. How much time remains?",
+    "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+    "correct": 2,
+    "feedback": "Volume infused in 4 hours: 125 × 4 = 500 mL. Remaining: 1000 − 500 = 500 mL. Time: 500 ÷ 125 = 4 hours."
+  },
+  {
+    "id": "inft-4",
+    "question": "A 250 mL bag is hung at 1400 and runs at 100 mL/hr. When will it finish?",
+    "options": ["1600", "1630", "1700", "1730"],
+    "correct": 1,
+    "feedback": "250 ÷ 100 = 2.5 hr = 2 hr 30 min. 1400 + 2:30 = 1630."
+  }
+]
+</script>

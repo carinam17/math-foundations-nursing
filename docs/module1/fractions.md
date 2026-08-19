@@ -12,15 +12,16 @@ two parts:
 
 In **dimensional analysis**, every conversion factor is a fraction. The
 numerator and denominator represent the same
-quantity expressed in two different units. Fractions also express rates  Which unit you place on top determines which unit will
-survive after cancellation.
-
-
+quantity expressed in two different units e.g. 1 kg is 2.2 lbs. Fractions also represent rates between two
+quantities. 
 
 \[\frac{1\text{ g}}{1000\text{ mg}} \qquad \frac{1000\text{ mg}}{1\text{ g}}\]
 
 These are the same relationship written two ways. You choose the
-orientation based on which unit you need to cancel.
+orientation based on which unit you need to cancel, as shown in later 
+
+
+
 
 ## Multiplying Fractions
 
@@ -42,6 +43,7 @@ change the value of a fraction.
 In a calculation chain, simplifying before multiplying reduces the
 size of the numbers you work with and makes errors easier to spot.
 It is not required — the answer is the same either way.
+
 
 !!! tip "In this course"
     You will only multiply fractions. Dimensional analysis handles

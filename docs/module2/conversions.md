@@ -3,7 +3,7 @@
 
 Unit conversion is the process of expressing a measurement in 
 a different unit while keeping the same value. In nursing, you 
-will will convert between units, including household units and metric units.
+will convert between units, including household units and metric units.
 
 ## The Conversion Factor Method
 
